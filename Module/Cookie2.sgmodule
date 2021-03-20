@@ -1,5 +1,5 @@
 #!name=Tartarus iOS Cookies Module
-#!desc=iOS Cookies 模块配置
+#!desc=自用Cookie2 不能与自用Cookie一起用
 
 [Script]
 中青阅读body获取 = type=http-request,pattern=https://ios.baertt.com/v5/article/complete.json,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/zqgetbody.js,script-update-interval=0
