@@ -5,7 +5,7 @@
 # By Evilbutcher GitHub：https://github.com/cjf935257177/Surge/tree/master/Module
 # 
 # 定时任务
-彩云天气 = type=cron,cronexp=0 7-22/3 * * *,wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js,script-update-interval=0
+// 彩云天气 = type=cron,cronexp=0 7-22/3 * * *,wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js,script-update-interval=0
 一加盲盒 = type=cron,cronexp=11 12 17-30 3 *,wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_oneplus.js,script-update-interval=0
 环球挑战赛 = type=cron,cronexp="0 9,12,20,21 8-31 3 *",wake-system=1,timeout=600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_global.js,script-update-interval=0
 城城领现金 = type=cron,cronexp=0 0-23/1 * * *,wake-system=1,timeout=600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_city.js,script-update-interval=0
@@ -13,29 +13,29 @@
 金口碑奖投票 = type=cron,cronexp=5 10 * 3 *,wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_mgold.js,script-update-interval=0
 母婴-跳一跳 = type=cron,cronexp="5 8,14,20 17-25 3 *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_mother_jump.js,script-update-interval=0
 联想集卡活动 = type=cron,cronexp=12 15 15-29 3 *,wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/z_lenovo.js,script-update-interval=0
-Sub-Store 自动同步 = type=cron,cronexp=0 12 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/scripts/cron-sync-artifacts.js,script-update-interval=0
-App价格版本监控 = type=cron,cronexp=0 0-18/6 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/appstore/AppMonitor.js,script-update-interval=0
-每日一句+蚂蚁森林收能量 = type=cron,cronexp=30 7 * * *,wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js,script-update-interval=0
-GitHub = type=cron,cronexp=0 9 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/github.js,script-update-interval=0
-NASA每日一图 = type=cron,cronexp=0 10-22/3 * * *,wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/nasa/nasapic.js,script-update-interval=0
-iDaily每日环球视野 = type=cron,cronexp=41 10-22/3 * * *,wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js,script-update-interval=0
+// Sub-Store 自动同步 = type=cron,cronexp=0 12 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/scripts/cron-sync-artifacts.js,script-update-interval=0
+// App价格版本监控 = type=cron,cronexp=0 0-18/6 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/appstore/AppMonitor.js,script-update-interval=0
+// 每日一句+蚂蚁森林收能量 = type=cron,cronexp=30 7 * * *,wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js,script-update-interval=0
+// GitHub = type=cron,cronexp=0 9 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/github.js,script-update-interval=0
+// NASA每日一图 = type=cron,cronexp=0 10-22/3 * * *,wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/nasa/nasapic.js,script-update-interval=0
+// iDaily每日环球视野 = type=cron,cronexp=41 10-22/3 * * *,wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js,script-update-interval=0
 美团 = type=cron,cronexp=1 0 * * *,wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js,script-update-interval=0
 饿了么 = type=cron,cronexp=1 0 * * *,wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js,script-update-interval=0
 饿了么-打卡领红包 = type=cron,cronexp=2 0 * * *,wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js,script-update-interval=0
-爱奇艺 = type=cron,cronexp=3 9 * * *,wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,script-update-interval=0
-疫情日报 = type=cron,cronexp=1 9 * * *,wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/nCov.js,script-update-interval=0
-PSN会免 = type=cron,cronexp=2 9 * * *,wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/psn.js,script-update-interval=0
-Epic周免 = type=cron,cronexp=0 9 */7 * *,wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/epic.js,script-update-interval=0
-谷歌中英互译 = type=cron,cronexp=1 10 * * *,wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/translate.js,script-update-interval=0
+// 爱奇艺 = type=cron,cronexp=3 9 * * *,wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,script-update-interval=0
+// 疫情日报 = type=cron,cronexp=1 9 * * *,wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/nCov.js,script-update-interval=0
+// PSN会免 = type=cron,cronexp=2 9 * * *,wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/psn.js,script-update-interval=0
+// Epic周免 = type=cron,cronexp=0 9 */7 * *,wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/epic.js,script-update-interval=0
+// 谷歌中英互译 = type=cron,cronexp=1 10 * * *,wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/translate.js,script-update-interval=0
 百度签到 = type=cron,cronexp=1 0 * * *,wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js,script-update-interval=0
 WPS = type=cron,cronexp=1 0 * * *,wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js,script-update-interval=0
-Steam价格监控 = type=cron,cronexp=0 8 * * *,wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/steam.js,script-update-interval=0
-热门监控 = type=cron,cronexp=30 0 8-22/2 * * *,wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hotsearch/hot.js,script-update-interval=0
+// Steam价格监控 = type=cron,cronexp=0 8 * * *,wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/steam.js,script-update-interval=0
+// 热门监控 = type=cron,cronexp=30 0 8-22/2 * * *,wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hotsearch/hot.js,script-update-interval=0
 微博 = type=cron,cronexp=5 9 * * *,wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,script-update-interval=0
 bilibili = type=cron,cronexp=2 0 * * *,wake-system=1,timeout=300,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js,script-update-interval=0
 京东签到 = type=cron,cronexp="23 9,23 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,script-update-interval=0
-京豆变动通知 = type=cron,cronexp=2 9 * * *,wake-system=1,timeout=600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_change.js,script-update-interval=0
-京东派件提醒 = type=cron,cronexp=30 9 * * *,wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/jdWuLiu.js,script-update-interval=0
+// 京豆变动通知 = type=cron,cronexp=2 9 * * *,wake-system=1,timeout=600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_change.js,script-update-interval=0
+// 京东派件提醒 = type=cron,cronexp=30 9 * * *,wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/jdWuLiu.js,script-update-interval=0
 京东十元街 = type=cron,cronexp=10 7 * * *,wake-system=1,timeout=600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_syj.js,script-update-interval=0
 // 京东赚京东开团 = type=cron,cronexp=10 * * * *,wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jd_zjd_tuan.js,script-update-interval=0
 // 京东赚京豆 = type=cron,cronexp=30 18 * * *,wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jd_zjd.js,script-update-interval=0
@@ -142,6 +142,7 @@ AcFun = type=cron,cronexp=8 0 * * *,wake-system=1,timeout=20,script-path=https:/
 樊登读书 = type=cron,cronexp=7 0 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/fandeng/fandeng.js,script-update-interval=0
 微信喜马拉雅 = type=cron,cronexp=6 0 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/xmly_wc.js,script-update-interval=0
 机场签到Cookie版 = type=cron,cronexp=17 0 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js,script-update-interval=0
-52破解 = type=cron,cronexp="2 0,22 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js,script-update-interval=0
+// 52破解 = type=cron,cronexp="2 0,22 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js,script-update-interval=0
 京东获取互助码 = type=cron,cronexp=20 13 * * 6,wake-system=1,timeout=300,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_get_share_code.js,script-update-interval=0
+
 
