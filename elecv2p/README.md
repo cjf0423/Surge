@@ -37,7 +37,7 @@ curl -sSL https://get.daocloud.io/docker | sh
 
 
 
-图片
+
 
 
 
@@ -50,7 +50,7 @@ apt-get update
 
 
 
-图片
+
 
 
 
@@ -67,7 +67,7 @@ sudo apt-get install curl
 
 
 
-图片
+
 
 
 
@@ -84,7 +84,7 @@ curl -sSL https://get.daocloud.io/docker | sh
 
 
 
-图片
+
 
 
 
@@ -96,7 +96,7 @@ curl -sSL https://get.daocloud.io/docker | sh
 
 
 
-图片
+
 
 
 
@@ -125,7 +125,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 
 
-图片
+
 
 
 
@@ -146,11 +146,11 @@ sudo vim /etc/hosts
 
 
 
-我的机器显示如下图
 
 
 
-图片
+
+
 
 
 
@@ -176,15 +176,11 @@ sudo vim /etc/hosts
 
 
 
-图片
 
 
 
-还是以我的机器为例，修改后是这样的
 
 
-
-图片
 
 
 
@@ -195,7 +191,7 @@ sudo vim /etc/hosts
 :wq
 
 
-图片
+
 
 
 
@@ -210,7 +206,7 @@ sudo vim /etc/hosts
 sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
 
-图片
+
 
 
 
@@ -223,7 +219,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 
 
-图片
+
 
 
 
@@ -233,7 +229,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 
 
-图片
+
 
 
 
@@ -251,21 +247,21 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 
 mkdir /elecv2p && cd /elecv2p
-机器会自动新建一个目录存放v2p，并将当前位置移动到这个目录里，如图
-
-
-
-图片
-
-
-
-在这个目录中新建一个文件，可以用代码命令，也可以在shell工具中直接创建。下图是我直接创建了一个文件。
+机器会自动新建一个目录存放v2p，并将当前位置移动到这个目录里
 
 
 
 
 
-图片
+
+
+在这个目录中新建一个文件，可以用代码命令，也可以在shell工具中直接创建。我直接创建了一个文件。
+
+
+
+
+
+
 
 
 
@@ -273,7 +269,7 @@ mkdir /elecv2p && cd /elecv2p
 
 
 
-图片
+
 
 
 
@@ -339,7 +335,7 @@ docker-compose up -d
 
 
 
-图片
+
 
 
 
@@ -347,7 +343,6 @@ docker-compose up -d
 
 
 
-图片
 
 
 
@@ -355,7 +350,8 @@ docker-compose up -d
 
 
 
-图片
+
+
 
 
 
@@ -398,7 +394,7 @@ V2p安装后，怎么使用呢？
 
 
 
-图片
+
 
 
 
@@ -417,7 +413,7 @@ V2p安装后，怎么使用呢？
 
 
 
-图片
+
 
 
 
@@ -435,17 +431,17 @@ v2p各个功能的使用我们有时间再聊，今天我们先讲一讲速成�
 
 
 
-图片
-
-
-
-在出现的页面中选择最底部，填写一个喜欢的名称，然后点生成，如图
 
 
 
 
+在出现的页面中选择最底部，填写一个喜欢的名称，然后点生成
 
-图片
+
+
+
+
+
 
 
 
@@ -453,7 +449,7 @@ v2p各个功能的使用我们有时间再聊，今天我们先讲一讲速成�
 
 
 
-图片
+
 
 
 
@@ -461,7 +457,7 @@ v2p各个功能的使用我们有时间再聊，今天我们先讲一讲速成�
 
 
 
-图片
+
 
 
 
@@ -469,7 +465,7 @@ v2p各个功能的使用我们有时间再聊，今天我们先讲一讲速成�
 
 
 
-图片
+
 
 
 
@@ -481,7 +477,7 @@ v2p各个功能的使用我们有时间再聊，今天我们先讲一讲速成�
 
 
 
-图片
+
 
 
 
@@ -510,7 +506,7 @@ v2p各个功能的使用我们有时间再聊，今天我们先讲一讲速成�
 
 
 
-图片
+
 
 
 
@@ -518,7 +514,7 @@ v2p各个功能的使用我们有时间再聊，今天我们先讲一讲速成�
 
 
 
-图片
+
 
 
 
@@ -526,7 +522,7 @@ v2p各个功能的使用我们有时间再聊，今天我们先讲一讲速成�
 
 
 
-这里我用野比大佬的京东多合一脚本举例，
+我用野比大佬的京东多合一脚本举例，
 
 
 
@@ -553,7 +549,7 @@ https://raw.githubusercontent.com/sngxpro/QuanX/master/task/AllinOne.json
 
 
 
-这里任务列表中使用了远程地址，
+任务列表中使用了远程地址，
 
 好处是可以实时同步脚本作者的更新。
 
@@ -575,19 +571,19 @@ https://raw.githubusercontent.com/sngxpro/QuanX/master/task/AllinOne.json
 
 
 
-这里我还是以远程这一种来举例，大家举一反三即可。
+我还是以远程这一种来举例，大家举一反三即可。
 
 
 
-图片
 
 
 
-先点击保存当前任务列表，然后点击绿色的播放按钮将这条task激活。状态变成如图所示即可。
+
+先点击保存当前任务列表，然后点击绿色的播放按钮将这条task激活。
 
 
 
-图片
+
 
 
 
@@ -605,7 +601,7 @@ https://raw.githubusercontent.com/sngxpro/QuanX/master/task/AllinOne.json
 
 
 
-图片
+
 
 
 
@@ -650,7 +646,7 @@ v2p有3种常用的方式可以获取cookie：
 
 
 
-图片
+
 
 
 
@@ -658,7 +654,7 @@ v2p有3种常用的方式可以获取cookie：
 
 
 
-图片
+
 
 
 
@@ -677,7 +673,7 @@ https://raw.githubusercontent.com/elecV2/elecV2P-dei/master/examples/JSTEST/boxj
 
 
 
-图片
+
 
 
 
@@ -699,7 +695,7 @@ https://ws28.cn/f/4sbvnwq2r8u
 
 
 
-图片
+
 
 
 
@@ -707,7 +703,7 @@ https://ws28.cn/f/4sbvnwq2r8u
 
 
 
-图片
+
 
 
 
@@ -715,7 +711,7 @@ https://ws28.cn/f/4sbvnwq2r8u
 
 
 
-图片
+
 
 
 
@@ -725,7 +721,7 @@ https://ws28.cn/f/4sbvnwq2r8u
 
 匹配方式：host
 
-配备内容：一个任意的网址格式，啥都行，比如我设置为boxjs.av，骚不？
+配备内容：一个任意的网址格式，啥都行，比如我设置为boxjs.av
 
 （但是这里不建议填写为boxjs.net 、boxjs.com、boxjs.cn，以防和手机圈x上的boxjs混淆。）
 
@@ -737,11 +733,11 @@ https://ws28.cn/f/4sbvnwq2r8u
 
 
 
-以下是我填好的示例
 
 
 
-图片
+
+
 
 
 
@@ -753,7 +749,7 @@ https://ws28.cn/f/4sbvnwq2r8u
 
 
 
-图片
+
 
 
 
@@ -761,7 +757,7 @@ https://ws28.cn/f/4sbvnwq2r8u
 
 
 
-图片
+
 
 
 
@@ -775,7 +771,7 @@ https://ws28.cn/f/4sbvnwq2r8u
 
 
 
-图片
+
 
 
 
@@ -834,7 +830,7 @@ V2p的代理服务器地址就是你的ip地址；
 
 
 
-图片
+
 
 
 
@@ -844,7 +840,7 @@ V2p的代理服务器地址就是你的ip地址；
 
 
 
-图片
+
 
 
 
@@ -852,7 +848,7 @@ V2p的代理服务器地址就是你的ip地址；
 
 
 
-图片
+
 
 
 
@@ -886,31 +882,27 @@ V2p的代理服务器地址就是你的ip地址；
 
 
 
-图片
 
 
 
-类型选择http
+
+类型选择http，地址就是你的ip地址，端口就是你设置的端口，如果没修改最开始的yaml文件则为8101
 
 
 
-图片
 
 
 
-按如下填写，并点完成（最下面的备注可以起个喜欢的名字，我备注是v2p）
 
 
 
-图片
 
 
 
-可以看到小火箭多了一个节点
 
 
 
-图片
+
 
 
 
@@ -926,11 +918,11 @@ V2p的代理服务器地址就是你的ip地址；
 
 
 
-我设置的是boxjs.av，还记得吗？详见第6章
+我设置的是boxjs.av，详见第6章
 
 
 
-图片
+
 
 
 
@@ -938,7 +930,6 @@ V2p的代理服务器地址就是你的ip地址；
 
 
 
-图片
 
 
 
@@ -950,7 +941,7 @@ V2p的代理服务器地址就是你的ip地址；
 
 
 
-图片
+
 
 
 
@@ -958,7 +949,6 @@ V2p的代理服务器地址就是你的ip地址；
 
 
 
-图片
 
 
 
@@ -973,7 +963,7 @@ V2p的代理服务器地址就是你的ip地址；
 https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json
 
 
-图片
+
 
 
 
@@ -987,7 +977,7 @@ https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json
 
 
 
-图片
+
 
 
 
@@ -1018,11 +1008,11 @@ https://raw.githubusercontent.com/sngxpro/QuanX/master/rewrite/cookie.conf
 
 我们只要一倒手，
 
-V2p就可以获得满满的cookie啦！我机智不！
+V2p就可以获得满满的cookie啦！
 
 
 
-图片
+
 
 
 
@@ -1046,7 +1036,7 @@ Boxjs.net 或 boxjs.com
 
 
 
-图片
+
 
 
 
@@ -1054,7 +1044,7 @@ Boxjs.net 或 boxjs.com
 
 
 
-图片
+
 
 
 
@@ -1062,7 +1052,7 @@ Boxjs.net 或 boxjs.com
 
 
 
-图片
+
 
 
 
@@ -1070,7 +1060,7 @@ Boxjs.net 或 boxjs.com
 
 
 
-图片
+
 
 
 
@@ -1082,7 +1072,7 @@ Boxjs.net 或 boxjs.com
 
 
 
-图片
+
 
 
 
@@ -1090,7 +1080,7 @@ Boxjs.net 或 boxjs.com
 
 
 
-图片
+
 
 
 
@@ -1098,7 +1088,7 @@ Boxjs.net 或 boxjs.com
 
 
 
-图片
+
 
 
 
@@ -1106,7 +1096,7 @@ Boxjs.net 或 boxjs.com
 
 
 
-图片
+
 
 
 
@@ -1114,7 +1104,7 @@ Boxjs.net 或 boxjs.com
 
 
 
-图片
+
 
 
 
@@ -1126,7 +1116,7 @@ Boxjs.net 或 boxjs.com
 
 
 
-图片
+
 
 
 
@@ -1136,7 +1126,7 @@ Boxjs.net 或 boxjs.com
 
 
 
-图片
+
 
 
 
@@ -1144,7 +1134,7 @@ Boxjs.net 或 boxjs.com
 
 
 
-图片
+
 
 
 
@@ -1152,7 +1142,6 @@ Boxjs.net 或 boxjs.com
 
 
 
-图片
 
 
 
@@ -1160,7 +1149,8 @@ Boxjs.net 或 boxjs.com
 
 
 
-图片
+
+
 
 
 
