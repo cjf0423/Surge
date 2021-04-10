@@ -41,8 +41,12 @@
 #中青阅读
 中青阅读body获取 = type=http-request,pattern=https://ios.baertt.com/v5/article/complete.json,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/zqgetbody.js,script-update-interval=0
 
+#芝嫲视频(肥皂)
+芝嫲视频Cookie = type=http-request,pattern=^https://api.sxsjyzm.com/api2/loot/index,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/zmsp.js,script-update-interval=0
+
+
 [MITM]
-hostname = %APPEND% ios.baertt.com, *.tenpay.com, veishop.iboxpay.com, *.fanli.com 
+hostname = %APPEND% ios.baertt.com, *.tenpay.com, veishop.iboxpay.com, *.fanli.com, api.sxsjyzm.com  
 
 
 
