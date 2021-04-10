@@ -8,6 +8,9 @@
 #D
 #E
 #F
+#返利网获取body
+返利网获取body = type=http-request,pattern=https:\/\/.+\.fanli\.com\/*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/cjf935257177/ZIYE00/ZIYE/Task/flw.js
+
 #G
 #H
 #I
@@ -39,7 +42,7 @@
 中青阅读body获取 = type=http-request,pattern=https://ios.baertt.com/v5/article/complete.json,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/zqgetbody.js,script-update-interval=0
 
 [MITM]
-hostname = %APPEND% ios.baertt.com, *.tenpay.com, veishop.iboxpay.com 
+hostname = %APPEND% ios.baertt.com, *.tenpay.com, veishop.iboxpay.com, *.fanli.com 
 
 
 
