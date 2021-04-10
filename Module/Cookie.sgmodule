@@ -17,6 +17,11 @@
 春风转Cookie = type=http-request,pattern=http://cf-api.douzhuanapi.cn:10002/api/,requires-header=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/cfz.js,script-update-interval=0
 
 #D
+#多看点视频(CenBoMin)
+多看点视频(红包) = type=http-request,pattern=https://dkd-api.dysdk.com/video/red_countdown,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDVIDEO/dkdvideo_cookie.js,script-update-interval=0
+多看点视频(视频) = type=http-request,pattern=https://dkd-api.dysdk.com/android_video/getaward,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDVIDEO/dkdvideo_cookie.js,script-update-interval=0
+多看点视频(提现) = type=http-request,pattern=https://dkd-api.dysdk.com/money/withdraw_do?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDVIDEO/dkdvideo_cookie.js,script-update-interval=0
+多看点视频(转盘) = type=http-request,pattern=https://dkd-api.dysdk.com/lotto/index?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDVIDEO/dkdvideo_cookie.js,script-update-interval=0
 
 #E
 
@@ -128,7 +133,7 @@ V生活Cookie = type=http-request,pattern=http://iosvsh.zwzanwm.cn/,requires-bod
 
 
 [MITM]
-hostname = %APPEND% bububao.duoshoutuan.com, vip.75787.com, .*.top, vip.75787.com, *.snssdk.com, club.yili.com, ifac*.iqiyi.com, wq.jd.com, m.jingxi.com, sleep.zouluzhuan.com, api.hemayoudao.cn, wq.jd.com, iosvsh.zwzanwm.cn, qcjesnfs.bar, *.tenpay.com, me-api.jd.com, api.m.jd.com, app.hubonews.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, cf-api.douzhuanapi.cn, play.gxhuancai.com, api.sxsjyzm.com, ranlv.lvfacn.com, api.langooo.com, ex.jwshq.cn 
+hostname = %APPEND% bububao.duoshoutuan.com, vip.75787.com, .*.top, vip.75787.com, *.snssdk.com, club.yili.com, ifac*.iqiyi.com, wq.jd.com, m.jingxi.com, sleep.zouluzhuan.com, api.hemayoudao.cn, wq.jd.com, iosvsh.zwzanwm.cn, qcjesnfs.bar, *.tenpay.com, me-api.jd.com, api.m.jd.com, app.hubonews.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, cf-api.douzhuanapi.cn, play.gxhuancai.com, api.sxsjyzm.com, ranlv.lvfacn.com, api.langooo.com, ex.jwshq.cn, dkd-api.dysdk.com 
 
 
 
