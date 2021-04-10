@@ -83,6 +83,9 @@ V生活Cookie = type=http-request,pattern=http://iosvsh.zwzanwm.cn/,requires-bod
 #W
 
 #X
+#西梅
+西梅Cookie = type=http-request,pattern=https://app.hubonews.com/v3/articles/list,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/ximei.js,script-update-interval=0
+
 #幸运赚点
 幸运赚点Cookie = type=http-request,pattern=https://vip.75787.com/app/index.php,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/xyzd.js,script-update-interval=0
 
@@ -98,6 +101,7 @@ V生活Cookie = type=http-request,pattern=http://iosvsh.zwzanwm.cn/,requires-bod
 
 
 [MITM]
-hostname = %APPEND% bububao.duoshoutuan.com, vip.75787.com, .*.top, vip.75787.com, *.snssdk.com, club.yili.com, ifac*.iqiyi.com, wq.jd.com, m.jingxi.com, sleep.zouluzhuan.com, api.hemayoudao.cn, wq.jd.com, iosvsh.zwzanwm.cn, qcjesnfs.bar, *.tenpay.com, me-api.jd.com, api.m.jd.com
-    
+hostname = %APPEND% bububao.duoshoutuan.com, vip.75787.com, .*.top, vip.75787.com, *.snssdk.com, club.yili.com, ifac*.iqiyi.com, wq.jd.com, m.jingxi.com, sleep.zouluzhuan.com, api.hemayoudao.cn, wq.jd.com, iosvsh.zwzanwm.cn, qcjesnfs.bar, *.tenpay.com, me-api.jd.com, api.m.jd.com, app.hubonews.com 
+
+
 
