@@ -1,11 +1,6 @@
 #!name=京东脚本
 #!desc=JD Task
 
-# Task&Cookies模块配置 By LXK9301
-# GitHub主页(https://gitee.com/lxk0301/jd_scripts/tree/master)
-# TG讨论组 (https://t.me/JD_fruit_pet)
-# TG通知频道 (https://t.me/jdfruit)
-# Surge的Task&Cookies脚本模块地址: https://jdsharedresourcescdn.azureedge.net/jdresource/Surge/lxk0301_Task.sgmodule.sgmodule
 
 [Script]
 京东多合一签到 = type=cron,cronexp=5 0 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
