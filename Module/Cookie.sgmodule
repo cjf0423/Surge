@@ -111,6 +111,14 @@
 V生活Cookie = type=http-request,pattern=http://iosvsh.zwzanwm.cn/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/vsh.js,script-update-interval=0
 
 #W
+#文旅看点(CenBoMin)
+文旅看点获取body1 = type=http-request,pattern=http://app.zhongchuanjukan.com/jkd/mobiledomain/getDomain.action,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/WLAPP/wlappcookie.js,script-update-interval=0
+文旅看点获取body2 = type=http-request,pattern=http://app.zhongchuanjukan.com/jkd/login/userlogin.action,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/WLAPP/wlappcookie.js,script-update-interval=0
+文旅看点获取body3 = type=http-request,pattern=http://app.zhongchuanjukan.com/jkd/newmobile/artlist.action,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/WLAPP/wlappcookie.js,script-update-interval=0
+文旅看点获取body4 = type=http-request,pattern=http://wlapp.ccdy.cn/jkd/weixin20/station/stationarticle.action?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/WLAPP/wlappcookie.js,script-update-interval=0
+文旅看点获取body5 = type=http-request,pattern=http://app.zhongchuanjukan.com/jkd/account/readAccount.action,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/WLAPP/wlappcookie.js,script-update-interval=0
+文旅看点获取body6 = type=http-request,pattern=http://app.zhongchuanjukan.com/jkd/newMobileMenu/infoMe.action,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/WLAPP/wlappcookie.js,script-update-interval=0
+文旅看点获取body7 = type=http-request,pattern=http://app.zhongchuanjukan.com/jkd/newmobile/artDetail.action,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/WLAPP/wlappcookie.js,script-update-interval=0
 
 #X
 #笑谱获取更新TOKEN(ZIYE)
@@ -143,6 +151,6 @@ V生活Cookie = type=http-request,pattern=http://iosvsh.zwzanwm.cn/,requires-bod
 
 
 [MITM]
-hostname = %APPEND% bububao.duoshoutuan.com, vip.75787.com, .*.top, vip.75787.com, *.snssdk.com, club.yili.com, ifac*.iqiyi.com, wq.jd.com, m.jingxi.com, sleep.zouluzhuan.com, api.hemayoudao.cn, wq.jd.com, iosvsh.zwzanwm.cn, qcjesnfs.bar, *.tenpay.com, me-api.jd.com, api.m.jd.com, app.hubonews.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, cf-api.douzhuanapi.cn, play.gxhuancai.com, api.sxsjyzm.com, ranlv.lvfacn.com, api.langooo.com, ex.jwshq.cn, dkd-api.dysdk.com, app.kxp.com, task.youth.cn 
+hostname = %APPEND% bububao.duoshoutuan.com, vip.75787.com, .*.top, vip.75787.com, *.snssdk.com, club.yili.com, ifac*.iqiyi.com, wq.jd.com, m.jingxi.com, sleep.zouluzhuan.com, api.hemayoudao.cn, wq.jd.com, iosvsh.zwzanwm.cn, qcjesnfs.bar, *.tenpay.com, me-api.jd.com, api.m.jd.com, app.hubonews.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, cf-api.douzhuanapi.cn, play.gxhuancai.com, api.sxsjyzm.com, ranlv.lvfacn.com, api.langooo.com, ex.jwshq.cn, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com 
 
 
