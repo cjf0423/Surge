@@ -1,0 +1,19 @@
+#!name=【2.极速版-模块引用】
+#!desc=4个重写引用,绝对不可以同时开启两个，只可以一个！！！！！！！⭐️是也许获取会发生问题的,特别注意说明！！
+
+#✅【极速-签到打卡】:登录App-点击下方中间【福利】-点击右侧图标【每日签到】- 立即签到,即可获取成功
+#✅【极速-阅读小说金币】:登录App-点击下方中间【福利】-点击左侧图标【赚金币】- 点击【30秒计时奖励】 - 找一本书点进去 -往右滑动看书 - 右上角会出现一个圈圈 -持续看书到获取金币,即可获取成功
+#⭐️【极速-看视频金币】:登录App-点击下方中间【福利】-点击左侧图标【赚金币】-点击【看视频领金币】- 看完一篇视频广告,即可获取成功
+#✅【极速-邀请书友】:登录App-点击下方中间【福利】-点击左侧图标【赚金币】-点击【邀请书友】,分享到微信朋友圈 - 分享完成返回app,即可获取成功
+
+
+[Script]
+用户信息 = type=http-request,pattern=https://render.shuqireader.com/load/resource,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/spcookie.js,script-update-interval=0
+签到 = type=http-request,pattern=https://ocean.shuqireader.com/api/activity/xapi/signin/v5/signInAction,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/spcookie.js,script-update-interval=0
+阅读小说金币 = type=http-request,pattern=https://ocean.shuqireader.com/api/activity/v1/activity/pendant/lottery?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/spcookie.js,script-update-interval=0
+一般页面看视频1 = type=http-request,pattern=https://ocean.shuqireader.com/api/ad/v1/api/prize/lottery,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/spcookie.js,script-update-interval=0
+视频信息 = type=http-request,pattern=https://ocean.shuqireader.com/api/ad/adserver/v1/api/getAdInfo?,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/spcookie.js,script-update-interval=0
+邀请书友 = type=http-request,pattern=https://ocean.shuqireader.com/api/activity/v1/task/reward,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/spcookie.js,script-update-interval=0
+
+[MITM]
+hostname = %APPEND% render.shuqireader.com, ocean.shuqireader.com

@@ -1,0 +1,12 @@
+#!name=【4.极速版-刷时长-模块引用】
+#!desc=4个重写引用,绝对不可以同时开启两个，只可以一个！！！！！！！⭐️是也许获取会发生问题的,特别注意说明！！
+
+#✅【极速-获取阅读时长】:登录App - 找一本书点进去 -往右滑动看书 - 右上角会出现一个圈圈 -持续看书至少6圈，保证看书三分钟，点击中间，左上角退出,即可获取成功
+#⭐️【极速-签到页面看视频】:登录App-点击下方中间【福利】-点击右侧图标【每日签到】，如果签到完成会弹出看【视频拿金币】，看完一篇视频广告,即可获取成功
+
+[Script]
+阅读时长上传 = type=http-request,pattern=https://jcollection.shuqireader.com/collection/iosapi/reading/upload,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/everday.js,script-update-interval=0
+极速签到视频2 = type=http-request,pattern=https://ocean.shuqireader.com/api/ad/v1/api/prize/lottery,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/everday.js,script-update-interval=0
+
+[MITM]
+hostname = %APPEND% jcollection.shuqireader.com, ocean.shuqireader.com
