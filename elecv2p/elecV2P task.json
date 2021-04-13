@@ -2,7 +2,7 @@
   "name": "elecV2P 定时任务订阅",
   "author": "cjf0423",
   "desc": "xx 导出的任务订阅。该订阅适用于 elecV2P，与其他软件并不兼容。相关说明参考：https://github.com/elecV2/elecV2P-dei/tree/master/docs/06-task.md",
-  "date": "2021-04-08 09:46:48",
+  "date": "2021-04-13 22:24:30",
   "list": [
     {
       "name": "京东",
@@ -25,7 +25,7 @@
     {
       "name": "清空日志",
       "type": "cron",
-      "time": "30 18 23 * * *",
+      "time": "30 18 11,23 * * *",
       "job": {
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/elecV2/elecV2P/master/script/JSFile/deletelog.js"
@@ -34,11 +34,40 @@
     {
       "name": "软更新升级",
       "type": "cron",
-      "time": "30 58 23 * * *",
+      "time": "30 11,23 * * *",
       "job": {
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/elecV2/elecV2P/master/script/JSFile/softupdate.js"
       }
+    },
+    {
+      "name": "Python 安装(Docker下)",
+      "type": "schedule",
+      "time": "0",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/elecV2/elecV2P/master/script/JSFile/python-install.js"
+      },
+      "running": false
+    },
+    {
+      "name": "Shell任务(不执行)",
+      "type": "cron",
+      "time": "10 0 * * *",
+      "job": {
+        "type": "exec",
+        "target": "python -V"
+      }
+    },
+    {
+      "name": "Shell任务(执行)",
+      "type": "schedule",
+      "time": "10",
+      "job": {
+        "type": "exec",
+        "target": "node -v"
+      },
+      "running": false
     },
     {
       "name": "彩云天气",
@@ -362,7 +391,8 @@
       "job": {
         "type": "runjs",
         "target": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_blueCoin.js"
-      }
+      },
+      "running": false
     },
     {
       "name": "京小兑",
@@ -1031,15 +1061,6 @@
       }
     },
     {
-      "name": "人人视频",
-      "type": "cron",
-      "time": "3 0 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js"
-      }
-    },
-    {
       "name": "百度极速版",
       "type": "cron",
       "time": "*/30 * * * *",
@@ -1194,43 +1215,31 @@
       }
     },
     {
-      "name": "Python安装(Docker下)",
-      "type": "schedule",
-      "time": "0",
+      "name": "落花无生",
+      "type": "cron",
+      "time": "8 9,13 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/elecV2/elecV2P/master/script/JSFile/python-install.js"
-      },
-      "running": false
-    },
-    {
-      "name": "任务只添加不开始",
-      "type": "cron",
-      "time": "10 0 * * *",
-      "job": {
-        "type": "exec",
-        "target": "python3 -V"
+        "target": "https://raw.githubusercontent.com/age174/-/main/lhws.js"
       }
     },
     {
-      "name": "任务添加并执行",
-      "type": "schedule",
-      "time": "10",
+      "name": "生活圈",
+      "type": "cron",
+      "time": "0-59 9,12,22 * * *",
       "job": {
-        "type": "exec",
-        "target": "node -v"
-      },
-      "running": false
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/age174/-/main/shq.js"
+      }
     },
     {
-      "name": "Shell 指令远程任务",
-      "type": "schedule",
-      "time": "0",
+      "name": "千禾阅读",
+      "type": "cron",
+      "time": "35 9-22 * * *",
       "job": {
-        "type": "exec",
-        "target": "python3 https://raw.githubusercontent.com/elecV2/elecV2P/master/script/Shell/elecV2P-exam.py"
-      },
-      "running": false
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/age174/-/main/qhyd.js"
+      }
     }
   ]
 }
