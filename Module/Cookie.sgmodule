@@ -68,6 +68,9 @@
 #久金人脉
 久金人脉获取数据 = type=http-request,pattern=https://nine.xj618.cn/v1//home/card/list,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/jjrm.js,script-update-interval=0
 
+#积分赚挖矿
+积分赚挖矿获取数据 = type=http-request,pattern=https://api.dwhub.com.cn/point_go/v2/mining/start,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/xl2101200/-/main/jfz.js,script-update-interval=0
+
 #K
 
 #L
@@ -169,7 +172,7 @@ V生活Cookie = type=http-request,pattern=http://iosvsh.zwzanwm.cn/,requires-bod
 
 
 [MITM]
-hostname = %APPEND% bububao.duoshoutuan.com, vip.75787.com, .*.top, vip.75787.com, *.snssdk.com, club.yili.com, ifac*.iqiyi.com, wq.jd.com, m.jingxi.com, sleep.zouluzhuan.com, api.hemayoudao.cn, wq.jd.com, iosvsh.zwzanwm.cn, qcjesnfs.bar, *.tenpay.com, me-api.jd.com, api.m.jd.com, app.hubonews.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, cf-api.douzhuanapi.cn, play.gxhuancai.com, api.sxsjyzm.com, ranlv.lvfacn.com, api.langooo.com, ex.jwshq.cn, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, api.lhws.info, glados.rocks, www.qianhe5.com, yaowu360.com, nb.ioxing.com, nine.xj618.cn, app.zaaap.cn, h5.youzan.com 
+hostname = %APPEND% bububao.duoshoutuan.com, vip.75787.com, .*.top, vip.75787.com, *.snssdk.com, club.yili.com, ifac*.iqiyi.com, wq.jd.com, m.jingxi.com, sleep.zouluzhuan.com, api.hemayoudao.cn, wq.jd.com, iosvsh.zwzanwm.cn, qcjesnfs.bar, *.tenpay.com, me-api.jd.com, api.m.jd.com, app.hubonews.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, cf-api.douzhuanapi.cn, play.gxhuancai.com, api.sxsjyzm.com, ranlv.lvfacn.com, api.langooo.com, ex.jwshq.cn, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, api.lhws.info, glados.rocks, www.qianhe5.com, yaowu360.com, nb.ioxing.com, nine.xj618.cn, app.zaaap.cn, h5.youzan.com, api.dwhub.com.cn 
 
 
 
