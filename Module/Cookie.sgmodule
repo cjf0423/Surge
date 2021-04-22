@@ -115,11 +115,9 @@ keep获取数据 = type=http-request,pattern=https://www.xiaeke.com/benmao/index
 #睡眠赚无限刷
 睡眠赚无限刷Cookie = type=http-request,pattern=http://sleep.zouluzhuan.com/api/member/randCoin,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/smz.js,script-update-interval=0
 
-#书旗小说(ZIYE)
-#用户名  视频任务 抽奖页面 极速版签到视频页   极速版视频任务
-书旗小说获取header = type=https:\/\/ocean\.shuqireader\.com\/*,script-path=https://raw.githubusercontent.com/cjf935257177/ZIYE00/ZIYE/Task/shuqi.js
-#极速版书城
-书旗小说获取header = type=http:\/\/activity-center-web\.shuqireader\.com\/*,script-path=https://raw.githubusercontent.com/cjf935257177/ZIYE00/ZIYE/Task/shuqi.js
+#书旗小说获取header(ZIYE)
+用户名  视频任务 抽奖页面 极速版签到视频页   极速版视频任务 = type=http-request,pattern=https:\/\/ocean\.shuqireader\.com\/*,script-path=https://raw.githubusercontent.com/cjf935257177/ZIYE00/ZIYE/Task/shuqi.js,script-update-interval=0
+极速版书城 = type=http-request,pattern=http:\/\/activity-center-web\.shuqireader\.com\/*,script-path=https://raw.githubusercontent.com/cjf935257177/ZIYE00/ZIYE/Task/shuqi.js,script-update-interval=0
 
 #T
 #腾讯自选股
@@ -193,7 +191,6 @@ V生活Cookie = type=http-request,pattern=http://iosvsh.zwzanwm.cn/,requires-bod
 
 [MITM]
 hostname = %APPEND% bububao.duoshoutuan.com, vip.75787.com, .*.top, vip.75787.com, *.snssdk.com, club.yili.com, ifac*.iqiyi.com, wq.jd.com, m.jingxi.com, sleep.zouluzhuan.com, api.hemayoudao.cn, wq.jd.com, iosvsh.zwzanwm.cn, qcjesnfs.bar, *.tenpay.com, me-api.jd.com, api.m.jd.com, app.hubonews.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, cf-api.douzhuanapi.cn, play.gxhuancai.com, api.sxsjyzm.com, ranlv.lvfacn.com, api.langooo.com, ex.jwshq.cn, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, api.lhws.info, glados.rocks, www.qianhe5.com, yaowu360.com, nb.ioxing.com, nine.xj618.cn, app.zaaap.cn, h5.youzan.com, api.dwhub.com.cn, nmmapis.mengniu.com.cn, www.xiaeke.com, huzhu.ssjann.com, ea.pangku01.com, miaogouguanggaotest.haimiaogou.com, activity-center-web.shuqireader.com, ocean.shuqireader.com 
-
 
 
 
