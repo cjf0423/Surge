@@ -44,7 +44,7 @@
 #笑谱获取视频ck(ZIYE)
 笑谱获取视频ck = type=http-request,pattern=https:\/\/veishop\.iboxpay\.com\/nf_gateway\/nf_customer_activity\/day_cash\/v1\/give_gold_coin_by_video.json,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/cjf935257177/ZIYE00/ZIYE/Task/iboxpay.js,script-update-interval=0
 
-#悬赏喵喵(与幸运赚点有冲突)
+#悬赏喵喵(与幸运赚点,哈喽短视频有冲突)
 悬赏喵喵获取数据 = type=http-request,pattern=https://vip.75787.com/app/index.php,script-path=https://raw.githubusercontent.com/age174/-/main/xsmm.js,script-update-interval=0
 
 #Y
