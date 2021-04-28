@@ -59,7 +59,7 @@
 哈喽短视频Cookie = type=http-request,pattern=https://vip.75787.com/app/index.php,requires-header=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/hldsp.js,script-update-interval=0
 
 #火狐看看
-火狐看看获取数据 = type=http-request,pattern=https://api.mozillacoin.com/main/read-bag?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/xl2101200/-/main/hhkk.js,script-update-interval=0
+火狐看看获取数据 = type=http-request,pattern=https://api.mozillacoin.com/main/main?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/xl2101200/-/main/hhkk.js,script-update-interval=0
 
 #I
 
