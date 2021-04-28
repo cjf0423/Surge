@@ -55,7 +55,7 @@
 #葫芦音乐
 葫芦音乐Cookie = type=http-request,pattern=https://play.gxhuancai.com/hlplay/task/doTasks,requires-header=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/hlyy.js,script-update-interval=0
 
-#哈喽短视频
+#哈喽短视频⚠️
 哈喽短视频Cookie = type=http-request,pattern=https://vip.75787.com/app/index.php,requires-header=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/hldsp.js,script-update-interval=0
 
 #火狐看看
