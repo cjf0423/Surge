@@ -138,6 +138,9 @@ QQ阅读APP获取url = type=http-request,pattern=https:\/\/(iostgw6\.reader\.qq\
 用户名  视频任务 抽奖页面 极速版签到视频页   极速版视频任务 = type=http-request,pattern=https:\/\/ocean\.shuqireader\.com\/*,script-path=https://raw.githubusercontent.com/cjf935257177/ZIYE00/ZIYE/Task/shuqi.js,script-update-interval=0
 极速版书城 = type=http-request,pattern=http:\/\/activity-center-web\.shuqireader\.com\/*,script-path=https://raw.githubusercontent.com/cjf935257177/ZIYE00/ZIYE/Task/shuqi.js,script-update-interval=0
 
+#食客江湖
+食客江湖获取数据 = type=http-request,pattern=https://www.shikeshijie.com/api/task/done,requires-header=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/skjh.js,script-update-interval=0
+
 #T
 #腾讯自选股
 腾讯自选股1 = type=http-request,pattern=https://zqact.tenpay.com/cgi-bin/open_stockinfo.fcgi?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_cookie.js,script-update-interval=0
@@ -214,7 +217,7 @@ V生活Cookie = type=http-request,pattern=http://iosvsh.zwzanwm.cn/,requires-bod
 
 
 [MITM]
-hostname = %APPEND% bububao.duoshoutuan.com, .*.top, *.snssdk.com, club.yili.com, ifac*.iqiyi.com, wq.jd.com, m.jingxi.com, sleep.zouluzhuan.com, api.hemayoudao.cn, wq.jd.com, iosvsh.zwzanwm.cn, qcjesnfs.bar, *.tenpay.com, me-api.jd.com, api.m.jd.com, app.hubonews.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, cf-api.douzhuanapi.cn, play.gxhuancai.com, api.sxsjyzm.com, ranlv.lvfacn.com, api.langooo.com, ex.jwshq.cn, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, api.lhws.info, glados.rocks, www.qianhe5.com, yaowu360.com, nb.ioxing.com, nine.xj618.cn, app.zaaap.cn, h5.youzan.com, api.dwhub.com.cn, nmmapis.mengniu.com.cn, www.xiaeke.com, huzhu.ssjann.com, ea.pangku01.com, miaogouguanggaotest.haimiaogou.com, activity-center-web.shuqireader.com, ocean.shuqireader.com, xinyaliyi.top, api.litemob.com, ttcj.dashengtec.com, bp-api.coohua.com, pepcoin.pepsico.com.cn, bp-api.coohua.com, api.mozillacoin.com, vip.75787.com, bp-api.coohua.com, iostgw6.reader.qq.com, newios.reader.qq.com 
+hostname = %APPEND% bububao.duoshoutuan.com, .*.top, *.snssdk.com, club.yili.com, ifac*.iqiyi.com, wq.jd.com, m.jingxi.com, sleep.zouluzhuan.com, api.hemayoudao.cn, wq.jd.com, iosvsh.zwzanwm.cn, qcjesnfs.bar, *.tenpay.com, me-api.jd.com, api.m.jd.com, app.hubonews.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, cf-api.douzhuanapi.cn, play.gxhuancai.com, api.sxsjyzm.com, ranlv.lvfacn.com, api.langooo.com, ex.jwshq.cn, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, api.lhws.info, glados.rocks, www.qianhe5.com, yaowu360.com, nb.ioxing.com, nine.xj618.cn, app.zaaap.cn, h5.youzan.com, api.dwhub.com.cn, nmmapis.mengniu.com.cn, www.xiaeke.com, huzhu.ssjann.com, ea.pangku01.com, miaogouguanggaotest.haimiaogou.com, activity-center-web.shuqireader.com, ocean.shuqireader.com, xinyaliyi.top, api.litemob.com, ttcj.dashengtec.com, bp-api.coohua.com, pepcoin.pepsico.com.cn, bp-api.coohua.com, api.mozillacoin.com, vip.75787.com, bp-api.coohua.com, iostgw6.reader.qq.com, newios.reader.qq.com, www.shikeshijie.com 
 
 
 
