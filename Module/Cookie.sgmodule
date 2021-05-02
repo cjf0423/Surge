@@ -224,12 +224,16 @@ V生活Cookie = type=http-request,pattern=http://iosvsh.zwzanwm.cn/,requires-bod
 #左边
 左边获取数据 = type=http-request,pattern=https://app.zaaap.cn/points/home/openbox,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/xl2101200/-/main/zb.js,script-update-interval=0
 
+#走路赚钱
+走路赚钱app = type=http-request,pattern=https://runstep.kujievip.com/welfare/center?,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/RUNSTEP/cookie.js,script-update-interval=0
+走路赚钱提现 = type=http-request,pattern=https://runstep.kujievip.com/runstep/myself?,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/RUNSTEP/cookie.js,script-update-interval=0
+
 #招招试药
 招招试药获取数据 = type=http-request,pattern=https://yaowu360.com/get/my/waitTask,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/zzsy.js,script-update-interval=0
 
 
 [MITM]
-hostname = %APPEND% bububao.duoshoutuan.com, .*.top, *.snssdk.com, club.yili.com, ifac*.iqiyi.com, wq.jd.com, m.jingxi.com, sleep.zouluzhuan.com, api.hemayoudao.cn, wq.jd.com, iosvsh.zwzanwm.cn, qcjesnfs.bar, *.tenpay.com, me-api.jd.com, api.m.jd.com, app.hubonews.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, cf-api.douzhuanapi.cn, play.gxhuancai.com, api.sxsjyzm.com, ranlv.lvfacn.com, api.langooo.com, ex.jwshq.cn, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, api.lhws.info, glados.rocks, www.qianhe5.com, yaowu360.com, nb.ioxing.com, nine.xj618.cn, app.zaaap.cn, h5.youzan.com, api.dwhub.com.cn, nmmapis.mengniu.com.cn, www.xiaeke.com, huzhu.ssjann.com, ea.pangku01.com, miaogouguanggaotest.haimiaogou.com, activity-center-web.shuqireader.com, ocean.shuqireader.com, xinyaliyi.top, api.litemob.com, ttcj.dashengtec.com, bp-api.coohua.com, pepcoin.pepsico.com.cn, bp-api.coohua.com, api.mozillacoin.com, vip.75787.com, bp-api.coohua.com, iostgw6.reader.qq.com, newios.reader.qq.com, www.shikeshijie.com, www.xizai.com, shop.taoyougou.cc, api.doge.yingshe.com, sunnytown.hyskgame.com 
+hostname = %APPEND% bububao.duoshoutuan.com, .*.top, *.snssdk.com, club.yili.com, ifac*.iqiyi.com, wq.jd.com, m.jingxi.com, sleep.zouluzhuan.com, api.hemayoudao.cn, wq.jd.com, iosvsh.zwzanwm.cn, qcjesnfs.bar, *.tenpay.com, me-api.jd.com, api.m.jd.com, app.hubonews.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, cf-api.douzhuanapi.cn, play.gxhuancai.com, api.sxsjyzm.com, ranlv.lvfacn.com, api.langooo.com, ex.jwshq.cn, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, api.lhws.info, glados.rocks, www.qianhe5.com, yaowu360.com, nb.ioxing.com, nine.xj618.cn, app.zaaap.cn, h5.youzan.com, api.dwhub.com.cn, nmmapis.mengniu.com.cn, www.xiaeke.com, huzhu.ssjann.com, ea.pangku01.com, miaogouguanggaotest.haimiaogou.com, activity-center-web.shuqireader.com, ocean.shuqireader.com, xinyaliyi.top, api.litemob.com, ttcj.dashengtec.com, bp-api.coohua.com, pepcoin.pepsico.com.cn, bp-api.coohua.com, api.mozillacoin.com, vip.75787.com, bp-api.coohua.com, iostgw6.reader.qq.com, newios.reader.qq.com, www.shikeshijie.com, www.xizai.com, shop.taoyougou.cc, api.doge.yingshe.com, sunnytown.hyskgame.com, runstep.kujievip.com 
 
 
 
