@@ -44,8 +44,11 @@
 #E
 
 #F
-#返利网获取header
+#返利网
 返利网获取header = type=http-request,pattern=https:\/\/.+\.fanli\.com\/*,script-path=https://raw.githubusercontent.com/cjf935257177/ZIYE00/ZIYE/Task/flw.js
+
+#富豪小镇
+富豪小镇获取数据 = type=http-request,pattern=https://sunnytown.hyskgame.com/api/messages\SaccessToken=\w+&msgtype=system_getGpvGameOptions,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/panghu999/ningmeng/main/fhxz.js,script-update-interval=0
 
 #番茄小说
 🍅番茄小说Cookie = type=http-request,pattern=luckycat/novel/v1/task/sign_in/*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/fqxs.js,script-update-interval=0
@@ -226,7 +229,7 @@ V生活Cookie = type=http-request,pattern=http://iosvsh.zwzanwm.cn/,requires-bod
 
 
 [MITM]
-hostname = %APPEND% bububao.duoshoutuan.com, .*.top, *.snssdk.com, club.yili.com, ifac*.iqiyi.com, wq.jd.com, m.jingxi.com, sleep.zouluzhuan.com, api.hemayoudao.cn, wq.jd.com, iosvsh.zwzanwm.cn, qcjesnfs.bar, *.tenpay.com, me-api.jd.com, api.m.jd.com, app.hubonews.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, cf-api.douzhuanapi.cn, play.gxhuancai.com, api.sxsjyzm.com, ranlv.lvfacn.com, api.langooo.com, ex.jwshq.cn, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, api.lhws.info, glados.rocks, www.qianhe5.com, yaowu360.com, nb.ioxing.com, nine.xj618.cn, app.zaaap.cn, h5.youzan.com, api.dwhub.com.cn, nmmapis.mengniu.com.cn, www.xiaeke.com, huzhu.ssjann.com, ea.pangku01.com, miaogouguanggaotest.haimiaogou.com, activity-center-web.shuqireader.com, ocean.shuqireader.com, xinyaliyi.top, api.litemob.com, ttcj.dashengtec.com, bp-api.coohua.com, pepcoin.pepsico.com.cn, bp-api.coohua.com, api.mozillacoin.com, vip.75787.com, bp-api.coohua.com, iostgw6.reader.qq.com, newios.reader.qq.com, www.shikeshijie.com, www.xizai.com, shop.taoyougou.cc, api.doge.yingshe.com 
+hostname = %APPEND% bububao.duoshoutuan.com, .*.top, *.snssdk.com, club.yili.com, ifac*.iqiyi.com, wq.jd.com, m.jingxi.com, sleep.zouluzhuan.com, api.hemayoudao.cn, wq.jd.com, iosvsh.zwzanwm.cn, qcjesnfs.bar, *.tenpay.com, me-api.jd.com, api.m.jd.com, app.hubonews.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, cf-api.douzhuanapi.cn, play.gxhuancai.com, api.sxsjyzm.com, ranlv.lvfacn.com, api.langooo.com, ex.jwshq.cn, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, api.lhws.info, glados.rocks, www.qianhe5.com, yaowu360.com, nb.ioxing.com, nine.xj618.cn, app.zaaap.cn, h5.youzan.com, api.dwhub.com.cn, nmmapis.mengniu.com.cn, www.xiaeke.com, huzhu.ssjann.com, ea.pangku01.com, miaogouguanggaotest.haimiaogou.com, activity-center-web.shuqireader.com, ocean.shuqireader.com, xinyaliyi.top, api.litemob.com, ttcj.dashengtec.com, bp-api.coohua.com, pepcoin.pepsico.com.cn, bp-api.coohua.com, api.mozillacoin.com, vip.75787.com, bp-api.coohua.com, iostgw6.reader.qq.com, newios.reader.qq.com, www.shikeshijie.com, www.xizai.com, shop.taoyougou.cc, api.doge.yingshe.com, sunnytown.hyskgame.com 
 
 
 
