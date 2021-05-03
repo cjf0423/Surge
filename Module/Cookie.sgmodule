@@ -97,7 +97,7 @@
 #keep
 keep获取数据 = type=http-request,pattern=https://www.xiaeke.com/benmao/index.php/Home/MorningTree/gainEnergy?,script-path=https://raw.githubusercontent.com/xl2101200/-/main/keepdk.js,script-update-interval=0
 
-#开心花园(越狱检测)
+#开心花园(越狱检测,获取数据与如意花园冲突)
 开心花园获取数据 = type=http-request,pattern=https://bp-api.coohua.com/bubuduo-kxhy/game/plant,script-path=https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/kxhy.js,script-update-interval=0
 
 #快乐猜歌(非越狱设备可用)
