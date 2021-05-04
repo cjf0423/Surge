@@ -186,7 +186,7 @@ V生活Cookie = type=http-request,pattern=http://iosvsh.zwzanwm.cn/,requires-bod
 讯播广告获取数据 = type=http-request,pattern=https://miaogouguanggaotest.haimiaogou.com/api/Order/add,requires-header=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/xbgg.js,script-update-interval=0
 
 #幸福养鸡场(越狱检测,获取数据与如意花园,快乐猜歌,开心花园冲突)(已注释)
-幸福养鸡场获取数据 = type=http-request,pattern=https://bp-api.coohua.com/bubuduo-xfyjc/task/getHomePageTask,requires-header=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/xfyjc.js,script-update-interval=0
+//幸福养鸡场获取数据 = type=http-request,pattern=https://bp-api.coohua.com/bubuduo-xfyjc/task/getHomePageTask,requires-header=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/xfyjc.js,script-update-interval=0
 
 #Y
 云扫码
