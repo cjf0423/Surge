@@ -94,10 +94,10 @@
 #keep
 keep获取数据 = type=http-request,pattern=https://www.xiaeke.com/benmao/index.php/Home/MorningTree/gainEnergy?,script-path=https://raw.githubusercontent.com/xl2101200/-/main/keepdk.js,script-update-interval=0
 
-#开心花园(越狱检测,获取数据与如意花园,快乐猜歌冲突)
+#开心花园(越狱检测,获取数据与如意花园,快乐猜歌,幸福养鸡场冲突)
 开心花园获取数据 = type=http-request,pattern=https://bp-api.coohua.com/bubuduo-kxhy/game/plant,script-path=https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/kxhy.js,script-update-interval=0
 
-#快乐猜歌(越狱检测,获取数据与如意花园,开心花园冲突)(已注释)
+#快乐猜歌(越狱检测,获取数据与如意花园,开心花园,幸福养鸡场冲突)(已注释)
 //快乐猜歌获取数据 = type=http-request,pattern=https://bp-api.coohua.com/bubuduo-klcg/game/answer/reward?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/klcg.js,script-update-interval=0
 
 #L
@@ -185,11 +185,8 @@ V生活Cookie = type=http-request,pattern=http://iosvsh.zwzanwm.cn/,requires-bod
 #讯播广告
 讯播广告获取数据 = type=http-request,pattern=https://miaogouguanggaotest.haimiaogou.com/api/Order/add,requires-header=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/xbgg.js,script-update-interval=0
 
-#幸福养鸡场
+#幸福养鸡场(越狱检测,获取数据与如意花园,快乐猜歌,开心花园冲突)(已注释)
 幸福养鸡场获取数据 = type=http-request,pattern=https://bp-api.coohua.com/bubuduo-xfyjc/task/getHomePageTask,requires-header=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/xfyjc.js,script-update-interval=0
-
-#新亚链
-新亚链获取数据 = type=http-request,pattern=http://xinyaliyi.top/qiandao,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/xl2101200/-/main/xyl.js,script-update-interval=0
 
 #Y
 云扫码
@@ -221,7 +218,7 @@ V生活Cookie = type=http-request,pattern=http://iosvsh.zwzanwm.cn/,requires-bod
 
 
 [MITM]
-hostname = %APPEND% bububao.duoshoutuan.com, .*.top, *.snssdk.com, club.yili.com, ifac*.iqiyi.com, wq.jd.com, m.jingxi.com, sleep.zouluzhuan.com, api.hemayoudao.cn, wq.jd.com, iosvsh.zwzanwm.cn, qcjesnfs.bar, *.tenpay.com, me-api.jd.com, api.m.jd.com, app.hubonews.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, cf-api.douzhuanapi.cn, play.gxhuancai.com, api.sxsjyzm.com, ranlv.lvfacn.com, api.langooo.com, ex.jwshq.cn, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, api.lhws.info, glados.rocks, yaowu360.com, nb.ioxing.com, nine.xj618.cn, app.zaaap.cn, h5.youzan.com, www.xiaeke.com, huzhu.ssjann.com, ea.pangku01.com, miaogouguanggaotest.haimiaogou.com, activity-center-web.shuqireader.com, ocean.shuqireader.com, xinyaliyi.top, api.litemob.com, ttcj.dashengtec.com, pepcoin.pepsico.com.cn, api.mozillacoin.com, vip.75787.com, bp-api.coohua.com, iostgw6.reader.qq.com, newios.reader.qq.com, www.shikeshijie.com, www.xizai.com, shop.taoyougou.cc, api.doge.yingshe.com, sunnytown.hyskgame.com
+hostname = %APPEND% bububao.duoshoutuan.com, .*.top, *.snssdk.com, club.yili.com, ifac*.iqiyi.com, wq.jd.com, m.jingxi.com, sleep.zouluzhuan.com, api.hemayoudao.cn, wq.jd.com, iosvsh.zwzanwm.cn, qcjesnfs.bar, *.tenpay.com, me-api.jd.com, api.m.jd.com, app.hubonews.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, cf-api.douzhuanapi.cn, play.gxhuancai.com, api.sxsjyzm.com, ranlv.lvfacn.com, api.langooo.com, ex.jwshq.cn, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, api.lhws.info, glados.rocks, yaowu360.com, nb.ioxing.com, nine.xj618.cn, app.zaaap.cn, h5.youzan.com, www.xiaeke.com, huzhu.ssjann.com, ea.pangku01.com, miaogouguanggaotest.haimiaogou.com, activity-center-web.shuqireader.com, ocean.shuqireader.com, api.litemob.com, ttcj.dashengtec.com, pepcoin.pepsico.com.cn, api.mozillacoin.com, vip.75787.com, bp-api.coohua.com, iostgw6.reader.qq.com, newios.reader.qq.com, www.shikeshijie.com, www.xizai.com, shop.taoyougou.cc, api.doge.yingshe.com, sunnytown.hyskgame.com
 
 
 
