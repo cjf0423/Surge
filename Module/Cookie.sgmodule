@@ -198,6 +198,9 @@ WGC获取数据 = type=http-request,pattern=http://stc.enjoyha.com/api/miner/min
 #笑谱获取更新TOKEN(ZIYE)
 笑谱获取更新TOKEN = type=http-response,pattern=https:\/\/veishop\.iboxpay\.com\/nf_gateway\/nf-user-auth-web\/ignore_tk\/veishop\/v1\/*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/cjf935257177/ZIYE00/ZIYE/Task/iboxpay.js
 
+#小芒
+小芒获取ck = type=http-request,pattern=https:\/\/mgesq\.api\.mgtv\.com\/user\/center?,requires-header=1,max-size=0,script-path=https://raw.githubusercontent.com/cjf935257177/ZIYE00/ZIYE/Task/xm.js,script-update-interval=0
+
 #西梅
 西梅Cookie = type=http-request,pattern=https://app.hubonews.com/.+/articles/list,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/ximei.js,script-update-interval=0
 
@@ -237,7 +240,7 @@ WGC获取数据 = type=http-request,pattern=http://stc.enjoyha.com/api/miner/min
 
 
 [MITM]
-hostname = %APPEND% bububao.duoshoutuan.com, .*.top, *.snssdk.com, club.yili.com, ifac*.iqiyi.com, wq.jd.com, m.jingxi.com, sleep.zouluzhuan.com, api.hemayoudao.cn, wq.jd.com, iosvsh.zwzanwm.cn, qcjesnfs.bar, *.tenpay.com, me-api.jd.com, api.m.jd.com, app.hubonews.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, cf-api.douzhuanapi.cn, play.gxhuancai.com, api.sxsjyzm.com, ranlv.lvfacn.com, api.langooo.com, ex.jwshq.cn, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, api.lhws.info, glados.rocks, yaowu360.com, nb.ioxing.com, nine.xj618.cn, app.zaaap.cn, h5.youzan.com, www.xiaeke.com, huzhu.ssjann.com, ea.pangku01.com, miaogouguanggaotest.haimiaogou.com, activity-center-web.shuqireader.com, ocean.shuqireader.com, api.litemob.com, ttcj.dashengtec.com, pepcoin.pepsico.com.cn, api.mozillacoin.com, vip.75787.com, bp-api.coohua.com, iostgw6.reader.qq.com, newios.reader.qq.com, www.shikeshijie.com, www.xizai.com, shop.taoyougou.cc, api.doge.yingshe.com, sunnytown.hyskgame.com, stc.enjoyha.com, as.xiaojukeji.com, common.diditaxi.com.cn, interface.baoshixingqiu.com, qmlzc-api.lw0591.com, redbag.renyouwangluo.cn, api-access.pangolin-sdk-toutiao.com 
+hostname = %APPEND% bububao.duoshoutuan.com, .*.top, *.snssdk.com, club.yili.com, ifac*.iqiyi.com, wq.jd.com, m.jingxi.com, sleep.zouluzhuan.com, api.hemayoudao.cn, wq.jd.com, iosvsh.zwzanwm.cn, qcjesnfs.bar, *.tenpay.com, me-api.jd.com, api.m.jd.com, app.hubonews.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, cf-api.douzhuanapi.cn, play.gxhuancai.com, api.sxsjyzm.com, ranlv.lvfacn.com, api.langooo.com, ex.jwshq.cn, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, api.lhws.info, glados.rocks, yaowu360.com, nb.ioxing.com, nine.xj618.cn, app.zaaap.cn, h5.youzan.com, www.xiaeke.com, huzhu.ssjann.com, ea.pangku01.com, miaogouguanggaotest.haimiaogou.com, activity-center-web.shuqireader.com, ocean.shuqireader.com, api.litemob.com, ttcj.dashengtec.com, pepcoin.pepsico.com.cn, api.mozillacoin.com, vip.75787.com, bp-api.coohua.com, iostgw6.reader.qq.com, newios.reader.qq.com, www.shikeshijie.com, www.xizai.com, shop.taoyougou.cc, api.doge.yingshe.com, sunnytown.hyskgame.com, stc.enjoyha.com, as.xiaojukeji.com, common.diditaxi.com.cn, interface.baoshixingqiu.com, qmlzc-api.lw0591.com, redbag.renyouwangluo.cn, api-access.pangolin-sdk-toutiao.com, mgesq.api.mgtv.com 
 
 
 
