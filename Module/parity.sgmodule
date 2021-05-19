@@ -14,4 +14,4 @@ http-response ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getde
 
 
 [MITM]
-hostname = api.m.jd.com, trade-acs.m.taobao.com
+hostname = %APPEND% api.m.jd.com, trade-acs.m.taobao.com
