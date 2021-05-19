@@ -64,6 +64,12 @@ crazyJoy挂机 = type=cron,cronexp="10 1,12 * * *",wake-system=1,timeout=20,scri
 领金贴 = type=cron,cronexp="10 0 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jin_tie.js
 球队赢好礼 = type=cron,cronexp="10 16 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_tcl.js
 每日抽奖 = type=cron,cronexp="13 1,22,23 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_daily_lottery.js
+京东到家果园任务 = type=cron,cronexp="10 0,8,11,17 * * *",wake-system=1,timeout=3000,script-path=https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_fruit.js,script-update-interval=0
+京东到家果园水车 = type=cron,cronexp=5 */2 * * *,wake-system=1,timeout=3000,script-path=https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_fruit_collectWater.js,script-update-interval=0
+京东到家鲜豆任务 = type=cron,cronexp=0 0 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_bean.js,script-update-interval=0
+京东到家鲜豆庄园 = type=cron,cronexp=0 0 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_plantBeans.js,script-update-interval=0
+京东到家鲜豆庄园领水滴 = type=cron,cronexp=*/5 * * * *,wake-system=1,timeout=300,script-path=https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_getPoints.js,script-update-interval=0
+京东金融领豆（不共用京东ck另抓） = type=cron,cronexp=0 0 * * *,wake-system=1,timeout=30,script-path=https://raw.githubusercontent.com/dompling/Script/master/jd/jd_jr_sign.js,script-update-interval=0
 
 
 [MITM]
