@@ -46,6 +46,12 @@ BoxJs TF = type=http-request,pattern=^https?://boxjs.net,script-path=https://raw
 #L
 
 #N
+#奈飞评分
+奈飞评分1 = type=http-request,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js,script-update-interval=0
+奈飞评分2 = type=http-response,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js,script-update-interval=0
+
+#奈飞单集评分
+奈飞单集评分 = type=http-response,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/warmer/.+type=show-ath,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating_season.js,script-update-interval=0
 
 #M
 
@@ -83,5 +89,4 @@ Sub-Store订阅管理 = type=http-request,pattern=^https?:\/\/sub\.store,script-
 
 
 [MITM]
-hostname = %APPEND% ap?.bilibili.com, jcap.m.jd.com, *.360buyimg.com, api.m.jd.com, trade-acs.m.taobao.com, sub.store 
-
+hostname = %APPEND% ap?.bilibili.com, jcap.m.jd.com, *.360buyimg.com, api.m.jd.com, trade-acs.m.taobao.com, sub.store, ios.prod.ftl.netflix.com 
