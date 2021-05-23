@@ -14,6 +14,8 @@ Bili Region = type=http-response,pattern=^https:\/\/ap(p|i)\.bilibili\.com\/(pgc
 #可选, 适用于搜索指定地区的番剧
 Bili Search = type=http-request,pattern=^https:\/\/app\.bilibili\.com\/x\/v\d\/search(\/type)?\?.+?%20(%E6%B8%AF|%E5%8F%B0|%E4%B8%AD)&,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js
 
+#BoxJs
+BoxJs TF = type=http-request,pattern=^https?://boxjs.net,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, requires-body=true, timeout=120
 
 
 #C
@@ -79,7 +81,6 @@ Bili Search = type=http-request,pattern=^https:\/\/app\.bilibili\.com\/x\/v\d\/s
 
 [MITM]
 hostname = %APPEND% ap?.bilibili.com, jcap.m.jd.com, *.360buyimg.com, api.m.jd.com, trade-acs.m.taobao.com 
-
 
 
 
