@@ -7,4 +7,4 @@ ctier=[A-Z] ctier=A 302
 
 
 [MITM]
-hostname = *.googlevideo.com
+hostname = %APPEND% *.googlevideo.com
