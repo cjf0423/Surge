@@ -4,86 +4,85 @@
 
 
 [Script]
-#A
+# A
 
 
-#B
-#哔哩哔哩自动换区
-哔哩哔哩自动换区 = type=http-response,pattern=^https:\/\/ap(p|i)\.bilibili\.com\/(pgc\/view\/(v\d\/)?app|x(\/v\d)?\/view\/video)\/(season|online)\?access_key,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js
+# B
+# 哔哩哔哩自动换区
+哔哩哔哩自动换区 = type=http-response,pattern=^https:\/\/ap(p|i)\.bilibili\.com\/(pgc\/view\/(v\d\/)?app|x(\/v\d)?\/view\/video)\/(season|online)\?access_key,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js,script-update-interval=0
 
-#可选, 适用于搜索指定地区的番剧
-哔哩哔哩搜索指定地区的番剧 = type=http-request,pattern=^https:\/\/app\.bilibili\.com\/x\/v\d\/search(\/type)?\?.+?%20(%E6%B8%AF|%E5%8F%B0|%E4%B8%AD)&,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js
+# 可选, 适用于搜索指定地区的番剧
+哔哩哔哩搜索指定地区的番剧 = type=http-request,pattern=^https:\/\/app\.bilibili\.com\/x\/v\d\/search(\/type)?\?.+?%20(%E6%B8%AF|%E5%8F%B0|%E4%B8%AD)&,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js,script-update-interval=0
 
-#BoxJs
-BoxJs TF = type=http-request,pattern=^https?://boxjs.net,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, requires-body=true, timeout=120
+# BoxJs
+BoxJs TF = type=http-request,pattern=^https?://boxjs.net,requires-body=1,max-size=0,timeout=120,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js,script-update-interval=0
 
+# C
 
-#C
-
-#D
-# > Speed up download app ios(加快下载App iOS)
+# D
+# Speed up download app ios(加快下载App iOS)
 加快下载App = type=dns,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/Surge/dnspod.js,script-update-interval=0
 
-#E
+# E
 
-#F
+# F
 
-#G
+# G
 
-#H
-#I
+# H
+# I
 
-#J
+# J
 # 京东登陆辅助
 京东登陆辅助 = type=http-response,pattern=^https:\/\/jcap\.m\.jd\.com\/home\/requireCaptcha\.js,requires-body=1,max-size=0,timeout=1000,script-path=https://raw.githubusercontent.com/dompling/Script/master/jd/jd_login_help.js,script-update-interval=0
 京东登陆切换 = type=http-response,pattern=^https:\/\/wq\.360buyimg\.com\/js\/common\/dest\/m\.commonFooter\.min\.js,requires-body=1,max-size=0,timeout=1000,script-path=https://raw.githubusercontent.com/dompling/Script/master/jd/jd_login_help.js,script-update-interval=0
 
-#京东
+# 京东
 京东历史价格 = type=http-response,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js,script-update-interval=0
 
-#K
+# K
 
-#L
+# L
 
-#N
-#奈飞评分
+# N
+# 奈飞评分
 奈飞评分1 = type=http-request,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js,script-update-interval=0
 奈飞评分2 = type=http-response,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js,script-update-interval=0
 
-#奈飞单集评分
+# 奈飞单集评分
 奈飞单集评分 = type=http-response,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/warmer/.+type=show-ath,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating_season.js,script-update-interval=0
 
-#M
+# M
 
 
-#O
+# O
 
-#P
+# P
 
-#Q
+# Q
 
-#R
+# R
 
-#S
-#Sub-Store高级订阅管理工具
-Sub-Store订阅管理 = type=http-request,pattern=^https?:\/\/sub\.store,script-path=https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/sub-store.min.js,requires-body=true,timeout=120,max-size=131072
+# S
+# Sub-Store高级订阅管理工具
+Sub-Store订阅管理 = type=http-request,pattern=^https?:\/\/sub\.store,requires-body=1,max-size=131072,timeout=120,script-path=https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/sub-store.min.js,script-update-interval=0
 
-#T
-#淘宝(不生效或失效的需要卸载 tb 重装，注意不开脚本进 tb 会失效)
+# T
+# 淘宝(不生效或失效的需要卸载 tb 重装，注意不开脚本进 tb 会失效)
 淘宝历史价格1 = type=http-request,pattern=^http://.+/amdc/mobileDispatch,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js,script-update-interval=0
 淘宝历史价格2 = type=http-response,pattern=^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js,script-update-interval=0
 
-#U
+# U
 
-#V
+# V
 
 
-#W
-#X
+# W
+# X
 
-#Y
+# Y
 
-#Z
+# Z
 
 
 
