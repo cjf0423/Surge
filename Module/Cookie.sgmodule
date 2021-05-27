@@ -12,8 +12,6 @@
 #步步宝
 步步宝Cookie = type=http-request,pattern=https://bububao.duoshoutuan.com/user/profile,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/adwktt/adwktt/master/BBB.js,script-update-interval=0
 
-#宝石星球
-宝石星球获取数据 = type=http-request,pattern=https://interface.baoshixingqiu.com/member/user/batch-diggle,script-path=https://raw.githubusercontent.com/age174/-/main/baosxq.js,script-update-interval=0
 
 #百事乐元
 百事乐元获取数据 = type=http-request,pattern=https://pepcoin.pepsico.com.cn/api/wxapp/doGetUserInfo,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/bsly.js,script-update-interval=0
@@ -27,9 +25,6 @@
 葱花视频body获取 = type=http-request,pattern=https:\/\/app\.kxp\.com\/task\/v1\/task_center\/share_video_reward,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/conghuabody.js,script-update-interval=0
 葱花视频body获取 = type=http-request,pattern=https://app.kxp.com/withdrawal/v2/wechat/exchange,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/conghuabody.js,script-update-interval=0
 葱花视频body获取 = type=http-request,pattern=https://task.youth.cn/count2/callback?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/conghuabody.js,script-update-interval=0
-
-#春风转
-春风转Cookie = type=http-request,pattern=http://cf-api.douzhuanapi.cn:10002/api/,requires-header=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/cfz.js,script-update-interval=0
 
 #猜歌王者
 猜歌王者改进度 = type=http-request,pattern=https://api.litemob.com/caigewangzhe_ios/song/info?,script-path=https://raw.githubusercontent.com/cjf935257177/QuantumultX/master/script/Scheduled%20Tasks/cgwz.js,script-update-interval=0
@@ -62,9 +57,6 @@
 #富豪小镇
 富豪小镇获取数据 = type=http-request,pattern=https://sunnytown.hyskgame.com/api/messages\SaccessToken=\w+&msgtype=system_getGpvGameOptions,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/panghu999/ningmeng/main/fhxz.js,script-update-interval=0
 
-#番茄小说
-🍅番茄小说Cookie = type=http-request,pattern=luckycat/novel/v1/task/sign_in/*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/fqxs.js,script-update-interval=0
-
 #G
 #GLaDOS签到
 获取GLaDOS_Cookie = type=http-request, pattern=https:\/\/glados\.rocks\/api\/user\/checkin, script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/glados.js
@@ -73,17 +65,9 @@
 狗狗大亨获取数据 = type=http-request,pattern=http://api.doge.yingshe.com/api/doge,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/xl2101200/-/main/ggdh.js,script-update-interval=0
 
 #H
-#葫芦音乐
-葫芦音乐Cookie = type=http-request,pattern=https://play.gxhuancai.com/hlplay/task/doTasks,requires-header=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/hlyy.js,script-update-interval=0
-
-#哈喽短视频(与悬赏喵喵,幸运赚点有冲突)
-哈喽短视频Cookie = type=http-request,pattern=https://vip.75787.com/app/index.php,requires-header=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/hldsp.js,script-update-interval=0
 
 #火狐看看
 火狐看看获取数据 = type=http-request,pattern=https://api.mozillacoin.com/main/main?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/xl2101200/-/main/hhkk.js,script-update-interval=0
-
-#淘优购
-淘优购获取数据 = type=http-request,pattern=https://shop.taoyougou.cc/api/,requires-header=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/tyg.js,script-update-interval=0
 
 #I
 
@@ -105,25 +89,11 @@
 #京东金融
 京东金融领豆获取Cookie = type=http-request,pattern=^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/uc\/newna\/m\/userstat,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/dompling/Script/master/jd/jd_jr_cookie.js,script-update-interval=0
 
-#久金人脉
-久金人脉获取数据 = type=http-request,pattern=https://nine.xj618.cn/v1//home/card/list,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/jjrm.js,script-update-interval=0
-
 #K
-#keep
-keep获取数据 = type=http-request,pattern=https://www.xiaeke.com/benmao/index.php/Home/MorningTree/gainEnergy?,script-path=https://raw.githubusercontent.com/xl2101200/-/main/keepdk.js,script-update-interval=0
-
-#开心花园(越狱检测,获取数据与如意花园,快乐猜歌,幸福养鸡场冲突)
-开心花园获取数据 = type=http-request,pattern=https://bp-api.coohua.com/bubuduo-kxhy/game/plant,script-path=https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/kxhy.js,script-update-interval=0
-
-#快乐猜歌(越狱检测,获取数据与如意花园,开心花园,幸福养鸡场冲突)(已注释)
-//快乐猜歌获取数据 = type=http-request,pattern=https://bp-api.coohua.com/bubuduo-klcg/game/answer/reward?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/klcg.js,script-update-interval=0
 
 #L
 #落花无生
 落花无生Cookie = type=http-request,pattern=https://api.lhws.info/lhws/api/member/list/ad/new,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/lhws.js,script-update-interval=0
-
-#朗果英语
-朗果英语Cookie = type=http-request,pattern=http://api.langooo.com/task/daily/taskList,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/lgyy.js,script-update-interval=0
 
 #N
 
@@ -147,18 +117,8 @@ QQ阅读APP获取url = type=http-request,pattern=https:\/\/(iostgw6\.reader\.qq\
 燃旅视频Cookie = type=http-request,pattern=^https://ranlv.lvfacn.com/api.php/Common/pvlog,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/ranlv.js,script-update-interval=0
 
 #S
-#生活圈
-生活圈Cookie = type=http-request,pattern=https://ex.jwshq.cn/app/commentator/getActivityItemPage,requires-header=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/shq.js,script-update-interval=0
-
-#食材大冲关
-食材大冲关视频 = type=http-request,pattern=https://api-access.pangolin-sdk-toutiao.com/api/ad/union/sdk/reward_video/reward/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/scdcg.js,script-update-interval=0
-食材大冲关红包 = type=http-request,pattern=https://redbag.renyouwangluo.cn/api/redbag/normal,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/scdcg.js,script-update-interval=0
-
 #圣牧有机小程序
 圣牧有机小程序获取数据 = type=http-request,pattern=https://h5.youzan.com/wscump/checkin/checkin.json?,script-path=https://raw.githubusercontent.com/xl2101200/-/main/smyj.js,script-update-interval=0
-
-#视频号互助
-视频号互助获取数据 = type=http-request,pattern=http://huzhu.ssjann.com/task/participate,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/sphz.js,script-update-interval=0
 
 #睡眠赚无限刷
 睡眠赚无限刷Cookie = type=http-request,pattern=http://sleep.zouluzhuan.com/api/member/randCoin,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/smz.js,script-update-interval=0
@@ -178,17 +138,12 @@ QQ阅读APP获取url = type=http-request,pattern=https:\/\/(iostgw6\.reader\.qq\
 腾讯自选股4 = type=http-request,pattern=https://wzq.tenpay.com/activity/page/welwareCenter/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_cookie.js,script-update-interval=0
 腾讯自选股5 = type=http-request,pattern=https://zqact.tenpay.com/cgi-bin/shop.fcgi?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_cookie.js,script-update-interval=0
 
-#太平洋汽车网
-太平洋汽车网获取数据 = type=http-request,pattern=https://ea.pangku01.com/activities/.+?/task/complete,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/tpyqc.js,script-update-interval=0
-
 #天天抽奖365
 天天抽奖365获取数据 = type=http-request,pattern=https://ttcj.dashengtec.com/api/v2/sign,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/xl2101200/-/main/ttcj.js,script-update-interval=0
 
 #U
 
 #V
-#V生活
-V生活Cookie = type=http-request,pattern=http://iosvsh.zwzanwm.cn/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/vsh.js,script-update-interval=0
 
 #W
 #文旅看点(CenBoMin)
@@ -207,54 +162,27 @@ WGC获取数据 = type=http-request,pattern=http://stc.enjoyha.com/api/miner/min
 #笑谱获取更新TOKEN(ZIYE)
 笑谱获取更新TOKEN = type=http-response,pattern=https:\/\/veishop\.iboxpay\.com\/nf_gateway\/nf-user-auth-web\/ignore_tk\/veishop\/v1\/*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/cjf935257177/ZIYE00/ZIYE/Task/iboxpay.js
 
-#小芒
-小芒获取ck = type=http-request,pattern=https:\/\/mgesq\.api\.mgtv\.com\/user\/center?,requires-header=1,max-size=0,script-path=https://raw.githubusercontent.com/cjf935257177/ZIYE00/ZIYE/Task/xm.js,script-update-interval=0
-
 #西梅
 西梅Cookie = type=http-request,pattern=https://app.hubonews.com/.+/articles/list,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/ximei.js,script-update-interval=0
 
-#讯播广告
-讯播广告获取数据 = type=http-request,pattern=https://miaogouguanggaotest.haimiaogou.com/api/Order/add,requires-header=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/xbgg.js,script-update-interval=0
-
-#幸福养鸡场(越狱检测,获取数据与如意花园,快乐猜歌,开心花园冲突)(已注释)
-//幸福养鸡场获取数据 = type=http-request,pattern=https://bp-api.coohua.com/bubuduo-xfyjc/task/getHomePageTask,requires-header=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/xfyjc.js,script-update-interval=0
-
 #Y
-云扫码
-云扫码Cookie = type=http-request,pattern=^http://.*./yunonline/v1/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/ysm.js,script-update-interval=0
-
 #伊利乳品
 伊利乳品Cookie = type=http-request, requires-body=1, pattern=https:\/\/club\.yili\.com\/MALLIFChe\/MCSWSIAPI\.asmx\/Call,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.cookie.js
 
-#易趣牛帮
-易趣牛帮获取header body = type=http-request,pattern=http:\/\/nb\.ioxing\.com\/*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/cjf935257177/ZIYE00/ZIYE/Task/yqnb.js,script-update-interval=0
-
-#云云赚呗
-云云赚呗获取数据 = type=http-request,pattern=http://\w+.\w+.com,script-path=https://raw.githubusercontent.com/xl2101200/-/main/yyzb.js,script-update-interval=0
-
 #Z
 #中青看点
-中青看点 = type=http-request,pattern=https:\/\/kd\.youth\.cn\/WebApi\/NewTaskIos\/getTaskList,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
-中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/article\/info\/get\.json,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
-中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/user\/stay\.json,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true
-中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/\w+\/withdraw\d?\.json,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true
-中青看点浏览赚 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/task\/browse_start\.json,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth_gain.js, requires-body=true
-中青看点看看赚 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/Nameless\/adlickstart\.json,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth_gain.js, requires-body=true
+中青看点 = type=http-request,pattern=https:\/\/kd\.youth\.cn\/WebApi\/NewTaskIos\/getTaskList,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js
+中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/article\/info\/get\.json,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js
+中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/user\/stay\.json,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, requires-body=true
+中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/\w+\/withdraw\d?\.json,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, requires-body=true
+中青看点浏览赚 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/task\/browse_start\.json,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth_gain.js, requires-body=true
+中青看点看看赚 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/Nameless\/adlickstart\.json,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth_gain.js, requires-body=true
 
-#芝嫲视频获取body(ziye)
-芝嫲视频获取body = type=http-request,pattern=https:\/\/api\.sxsjyzm\.com\/*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/cjf935257177/ZIYE00/ZIYE/Task/zhima.js 
 
-#左边
-左边获取数据 = type=http-request,pattern=https://app.zaaap.cn/points/home/openbox,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/xl2101200/-/main/zb.js,script-update-interval=0
-
-#招招试药
-招招试药获取数据 = type=http-request,pattern=https://yaowu360.com/get/my/waitTask,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/zzsy.js,script-update-interval=0
 
 
 [MITM]
-hostname = %APPEND% bububao.duoshoutuan.com, .*.top, *.snssdk.com, club.yili.com, ifac*.iqiyi.com, wq.jd.com, m.jingxi.com, sleep.zouluzhuan.com, api.hemayoudao.cn, wq.jd.com, iosvsh.zwzanwm.cn, qcjesnfs.bar, *.tenpay.com, me-api.jd.com, api.m.jd.com, app.hubonews.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, cf-api.douzhuanapi.cn, play.gxhuancai.com, api.sxsjyzm.com, ranlv.lvfacn.com, api.langooo.com, ex.jwshq.cn, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, api.lhws.info, glados.rocks, yaowu360.com, nb.ioxing.com, nine.xj618.cn, app.zaaap.cn, h5.youzan.com, www.xiaeke.com, huzhu.ssjann.com, ea.pangku01.com, miaogouguanggaotest.haimiaogou.com, activity-center-web.shuqireader.com, ocean.shuqireader.com, api.litemob.com, ttcj.dashengtec.com, pepcoin.pepsico.com.cn, api.mozillacoin.com, vip.75787.com, bp-api.coohua.com, iostgw6.reader.qq.com, newios.reader.qq.com, www.shikeshijie.com, www.xizai.com, shop.taoyougou.cc, api.doge.yingshe.com, sunnytown.hyskgame.com, stc.enjoyha.com, as.xiaojukeji.com, common.diditaxi.com.cn, interface.baoshixingqiu.com, qmlzc-api.lw0591.com, redbag.renyouwangluo.cn, api-access.pangolin-sdk-toutiao.com, mgesq.api.mgtv.com, \w+.\w+.com, daojia.jd.com, ms.jr.jd.com, game.xiaojukeji.com 
-
-
+hostname = %APPEND% bububao.duoshoutuan.com, .*.top, club.yili.com, ifac*.iqiyi.com, wq.jd.com, m.jingxi.com, sleep.zouluzhuan.com, api.hemayoudao.cn, wq.jd.com, qcjesnfs.bar, *.tenpay.com, me-api.jd.com, api.m.jd.com, app.hubonews.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, ranlv.lvfacn.com, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, api.lhws.info, glados.rocks, h5.youzan.com, activity-center-web.shuqireader.com, ocean.shuqireader.com, api.litemob.com, ttcj.dashengtec.com, pepcoin.pepsico.com.cn, api.mozillacoin.com, iostgw6.reader.qq.com, newios.reader.qq.com, www.shikeshijie.com, www.xizai.com, api.doge.yingshe.com, sunnytown.hyskgame.com, stc.enjoyha.com, as.xiaojukeji.com, common.diditaxi.com.cn, qmlzc-api.lw0591.com, daojia.jd.com, ms.jr.jd.com, game.xiaojukeji.com 
 
 
 
