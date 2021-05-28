@@ -78,6 +78,9 @@ Sub-Store订阅管理 = type=http-request,pattern=^https?:\/\/sub\.store,require
 
 
 # W
+# 微信
+微信去广告 = type=http-request,pattern=^https://mp\.weixin\.qq\.com/mp/getappmsgad,script-path=https://raw.githubusercontent.com/scomper/Surge/master/Scripts/WeChat.js,script-update-interval=0
+
 # X
 
 # Y
@@ -88,4 +91,5 @@ Sub-Store订阅管理 = type=http-request,pattern=^https?:\/\/sub\.store,require
 
 
 [MITM]
-hostname = %APPEND% ap?.bilibili.com, jcap.m.jd.com, *.360buyimg.com, api.m.jd.com, trade-acs.m.taobao.com, sub.store, ios.prod.ftl.netflix.com 
+hostname = %APPEND% ap?.bilibili.com, jcap.m.jd.com, *.360buyimg.com, api.m.jd.com, trade-acs.m.taobao.com, sub.store, ios.prod.ftl.netflix.com, mp.weixin.qq.com 
+
