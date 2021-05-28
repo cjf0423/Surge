@@ -1,71 +1,76 @@
+
 #!name=Tartarus iOS Cookies Module
 #!desc=cjf0423 Cookie2 不能与Cookie一起用
 
 [Script]
-#A
-#B
-#C
-#超市小达人
-超市小达人视频 = type=http-request,pattern=https://api-access.pangolin-sdk-toutiao.com/api/ad/union/sdk/reward_video/reward/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/csxdr.js,script-update-interval=0
-超市小达人红包 = type=http-request,pattern=https://market.renyouwangluo.cn/api/redbag/normal,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/csxdr.js,script-update-interval=0
+# A
 
-#D
-#E
-#F
-#返利网获取body
-返利网获取body = type=http-request,pattern=https:\/\/.+\.fanli\.com\/*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/cjf935257177/ZIYE00/ZIYE/Task/flw.js
+# B
 
-#G
-#H
-#I
-#J
-#K
-#L
-#N
-#M
-#O
-#P
-#Q
-#千禾阅读任务重写
-千禾阅读任务重写 = type=http-request,pattern=https://www.qianhe5.com/read/v1/get_time_list,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/qhyd.js,script-update-interval=0
+# C
 
-#R
-#如意花园(越狱检测,获取数据与开心花园冲突)
-如意花园获取数据 = type=http-request,pattern=https://bp-api.coohua.com/bubuduo-ryhy/game/plant,script-path=https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/ryhy.js,script-update-interval=0
+# D
 
-#S
-#书旗小说获取body(ZIYE)
+# E
+
+# F
+# 返利网获取body
+返利网获取body = type=http-request,pattern=https:\/\/.+\.fanli\.com\/*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/cjf935257177/ZIYE00/ZIYE/Task/flw.js,script-update-interval=0
+
+# G
+
+# H
+
+# I
+
+# J
+
+# K
+
+# L
+
+# N
+
+# M
+
+# O
+
+# P
+
+# Q
+
+# R
+
+# S
+# 书旗小说获取body(ZIYE)
 阅读 签到  分享 奖励 收取奖励  抽奖次数 抽奖 极速版视频 极速版签到视频 极速版阅读 极速版签到 极速版分享 极速版书城 = type=http-request,pattern=https:\/\/ocean\.shuqireader\.com\/*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/cjf935257177/ZIYE00/ZIYE/Task/shuqi.js,script-update-interval=0
 收益 任务 极速版任务 = type=http-request,pattern=https:\/\/render\.shuqireader\.com\/*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/cjf935257177/ZIYE00/ZIYE/Task/shuqi.js,script-update-interval=0
 时长 = type=http-request,pattern=https:\/\/jcollection\.shuqireader\.com\/*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/cjf935257177/ZIYE00/ZIYE/Task/shuqi.js,script-update-interval=0
 
-#T
-#腾讯自选股
+# T
+# 腾讯自选股
 腾讯自选股微信1 = type=http-request,pattern=https://wzq.tenpay.com/cgi-bin/redpoint.fcgi?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_cookie.js,script-update-interval=0
 腾讯自选股微信活动cow = type=http-request,pattern=https://zqact03.tenpay.com/activity/page/raisebull/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_cookie.js,script-update-interval=0
 
-#U
-#V
-#W
-#X
-#笑谱获取视频ck(ZIYE)
+# U
+
+# V
+
+# W
+
+# X
+# 笑谱获取视频ck(ZIYE)
 笑谱获取视频ck = type=http-request,pattern=https:\/\/veishop\.iboxpay\.com\/nf_gateway\/nf_customer_activity\/day_cash\/v1\/give_gold_coin_by_video.json,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/cjf935257177/ZIYE00/ZIYE/Task/iboxpay.js,script-update-interval=0
 
-#悬赏喵喵(与幸运赚点,哈喽短视频有冲突)
-悬赏喵喵获取数据 = type=http-request,pattern=https://vip.75787.com/app/index.php,script-path=https://raw.githubusercontent.com/age174/-/main/xsmm.js,script-update-interval=0
+# Y
 
-#Y
-#Z
-#中青阅读
-中青看点阅读 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/article\/info\/get\.json,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/Youth_Read.js
-中青看点阅读 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/user\/stay\.json,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/Youth_Read.js, requires-body=true
+# Z
+# 中青阅读
+中青看点阅读 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/article\/info\/get\.json,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/Youth_Read.js,script-update-interval=0
+中青看点阅读 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/user\/stay\.json,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/Youth_Read.js,script-update-interval=0
 
-#芝嫲视频(肥皂)
-芝嫲视频Cookie = type=http-request,pattern=^https://api.sxsjyzm.com/api2/loot/index,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/age174/-/main/zmsp.js,script-update-interval=0
+
 
 
 [MITM]
-hostname = %APPEND% ios.baertt.com, *.tenpay.com, veishop.iboxpay.com, *.fanli.com, api.sxsjyzm.com, www.qianhe5.com, ocean.shuqireader.com, render.shuqireader.com, jcollection.shuqireader.com, vip.75787.com, bp-api.coohua.com, market.renyouwangluo.cn, api-access.pangolin-sdk-toutiao.com 
-
-
-
+hostname = %APPEND% ios.baertt.com, *.tenpay.com, veishop.iboxpay.com, *.fanli.com,  ocean.shuqireader.com, render.shuqireader.com, jcollection.shuqireader.com
