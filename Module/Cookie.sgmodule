@@ -155,6 +155,9 @@ WGC获取数据 = type=http-request,pattern=http://stc.enjoyha.com/api/miner/min
 # 伊利乳品
 伊利乳品Cookie = type=http-request,pattern=https:\/\/club\.yili\.com\/MALLIFChe\/MCSWSIAPI\.asmx\/Call,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.cookie.js,script-update-interval=0
 
+# 引力生活
+引力生活获取数据 = type=http-request,pattern=http://app-api.yinlishenghuo.com/api/jingdian/reward/video,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/xl2101200/-/main/ylsh.js,script-update-interval=0
+
 # Z
 # 中青看点
 中青看点 = type=http-request,pattern=https:\/\/kd\.youth\.cn\/WebApi\/NewTaskIos\/getTaskList,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js,script-update-interval=0
@@ -168,7 +171,7 @@ WGC获取数据 = type=http-request,pattern=http://stc.enjoyha.com/api/miner/min
 
 
 [MITM]
-hostname = %APPEND% bububao.duoshoutuan.com, .*.top, club.yili.com, ifac*.iqiyi.com, wq.jd.com, m.jingxi.com, sleep.zouluzhuan.com, api.hemayoudao.cn, wq.jd.com, qcjesnfs.bar, *.tenpay.com, me-api.jd.com, api.m.jd.com, app.hubonews.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, ranlv.lvfacn.com, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, glados.rocks, activity-center-web.shuqireader.com, ocean.shuqireader.com, ttcj.dashengtec.com, pepcoin.pepsico.com.cn, api.mozillacoin.com, www.shikeshijie.com, www.xizai.com, api.doge.yingshe.com, sunnytown.hyskgame.com, stc.enjoyha.com, as.xiaojukeji.com, common.diditaxi.com.cn, qmlzc-api.lw0591.com, daojia.jd.com, ms.jr.jd.com, game.xiaojukeji.com 
+hostname = %APPEND% bububao.duoshoutuan.com, .*.top, club.yili.com, ifac*.iqiyi.com, wq.jd.com, m.jingxi.com, sleep.zouluzhuan.com, api.hemayoudao.cn, wq.jd.com, qcjesnfs.bar, *.tenpay.com, me-api.jd.com, api.m.jd.com, app.hubonews.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, ranlv.lvfacn.com, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, glados.rocks, activity-center-web.shuqireader.com, ocean.shuqireader.com, ttcj.dashengtec.com, pepcoin.pepsico.com.cn, api.mozillacoin.com, www.shikeshijie.com, www.xizai.com, api.doge.yingshe.com, sunnytown.hyskgame.com, stc.enjoyha.com, as.xiaojukeji.com, common.diditaxi.com.cn, qmlzc-api.lw0591.com, daojia.jd.com, ms.jr.jd.com, game.xiaojukeji.com, app-api.yinlishenghuo.com 
 
 
 
