@@ -7,6 +7,9 @@
 # A
 
 # B
+# 哔哩哔哩开启1080
+哔哩哔哩开启1080 = type=http-response,pattern=https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Script/Bilibili/BiliHD.js,script-update-interval=0
+
 # 哔哩哔哩自动换区
 哔哩哔哩自动换区 = type=http-response,pattern=^https:\/\/ap(p|i)\.bilibili\.com\/(pgc\/view\/(v\d\/)?app|x(\/v\d)?\/view\/video)\/(season|online)\?access_key,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js,script-update-interval=0
 
@@ -39,8 +42,8 @@ GreasyFork油猴脚本转换器 = type=http-response,pattern=^https:\/\/(greasyf
 
 # J
 # 京东登陆辅助
-京东登陆辅助 = type=http-response,pattern=^https:\/\/jcap\.m\.jd\.com\/home\/requireCaptcha\.js,requires-body=1,max-size=0,timeout=1000,script-path=https://raw.githubusercontent.com/dompling/Script/master/jd/jd_login_help.js,script-update-interval=0
-京东登陆切换 = type=http-response,pattern=^https:\/\/wq\.360buyimg\.com\/js\/common\/dest\/m\.commonFooter\.min\.js,requires-body=1,max-size=0,timeout=1000,script-path=https://raw.githubusercontent.com/dompling/Script/master/jd/jd_login_help.js,script-update-interval=0
+京东登陆页面辅助 = type=http-response,pattern=^https?:\/\/home\.m\.jd\.com\/userinfom\/QueryUserInfoM,requires-body=1,max-size=0,timeout=1000,script-path=https://raw.githubusercontent.com/dompling/Script/master/jd/jd_login_help.js,script-update-interval=0
+京东个人中心登陆辅助 = type=http-response,pattern=^https?:\/\/plogin\.m\.jd\.com\/login\/login,requires-body=1,max-size=0,timeout=1000,script-path=https://raw.githubusercontent.com/dompling/Script/master/jd/jd_login_help.js,script-update-interval=0
 
 # 京东
 京东历史价格 = type=http-response,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js,script-update-interval=0
@@ -100,5 +103,5 @@ WPS = type=http-response,pattern=^https?:\/\/account\.wps\.cn\/api\/users,requir
 
 
 [MITM]
-hostname = %APPEND% ap?.bilibili.com, jcap.m.jd.com, *.360buyimg.com, api.m.jd.com, trade-acs.m.taobao.com, sub.store, ios.prod.ftl.netflix.com, mp.weixin.qq.com, pan.baidu.com, weixin110.qq.com, account.wps.cn, greasyfork.org, openuserjs.org 
+hostname = %APPEND% ap?.bilibili.com, plogin.m.jd.com, home.m.jd.com, api.m.jd.com, trade-acs.m.taobao.com, sub.store, ios.prod.ftl.netflix.com, mp.weixin.qq.com, pan.baidu.com, weixin110.qq.com, account.wps.cn, greasyfork.org, openuserjs.org 
 
