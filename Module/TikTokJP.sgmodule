@@ -1,0 +1,13 @@
+#!name=解锁TikTok
+#!desc=TikTok日本区解锁
+
+
+[URL Rewrite]
+# 根据喜好自行更换307后面JP JP=日本 KR=韩国 HK=香港 TW=台湾 US=美国
+(?<=_region=)CN(?=&) JP 307
+(?<=&mcc_mnc=)4 2 307
+^(https?:\/\/(dm|tnc)[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$3 302
+
+
+[MITM]
+hostname = %APPEND% *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com
