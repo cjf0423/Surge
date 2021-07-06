@@ -50,7 +50,7 @@
 返利网获取header = type=http-request,pattern=https:\/\/.+\.fanli\.com\/*,script-path=https://raw.githubusercontent.com/cjf935257177/ZIYE00/ZIYE/Task/flw.js,script-update-interval=0
 
 # 富豪小镇
-富豪小镇获取数据 = type=http-request,pattern=https://sunnytown.hyskgame.com/api/messages\SaccessToken=\w+&msgtype=system_getGpvGameOptions,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/panghu999/ningmeng/main/fhxz.js,script-update-interval=0
+富豪小镇获取数据 = type=http-request,pattern=https://sunnytown.hyskgame.com/api/messages\SaccessToken=\w+&msgtype=system_getGpvGameOptions,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/cjf935257177/QuantumultX/master/script/Scheduled%20Tasks/fhxz.js,script-update-interval=0
 
 # G
 # GLaDOS签到
