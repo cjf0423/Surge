@@ -39,6 +39,8 @@
 # Q
 
 # R
+# 燃旅视频(ZIYE)
+燃旅获取url(ZIYE) = type=http-request,pattern=https://ranlv.lvfacn.com/api.php/*,script-path=https://raw.githubusercontent.com/cjf935257177/ZIYE00/ZIYE/Task/rl.js,script-update-interval=0
 
 # S
 # 书旗小说获取body(ZIYE)
@@ -72,4 +74,6 @@
 
 
 [MITM]
-hostname = %APPEND% ios.baertt.com, *.tenpay.com, veishop.iboxpay.com, *.fanli.com,  ocean.shuqireader.com, render.shuqireader.com, jcollection.shuqireader.com
+hostname = %APPEND% ios.baertt.com, *.tenpay.com, veishop.iboxpay.com, *.fanli.com,  ocean.shuqireader.com, render.shuqireader.com, jcollection.shuqireader.com, ranlv.lvfacn.com 
+
+
