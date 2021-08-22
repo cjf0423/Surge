@@ -44,7 +44,7 @@ GreasyFork油猴脚本转换器 = type=http-response,pattern=^https:\/\/(greasyf
 京东个人中心登陆辅助 = type=http-response,pattern=^https?:\/\/plogin\.m\.jd\.com\/login\/login,requires-body=1,max-size=0,timeout=1000,script-path=https://raw.githubusercontent.com/dompling/Script/master/jd/jd_login_help.js,script-update-interval=0
 
 # 京东
-京东历史价格 = type=http-response,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js,script-update-interval=0
+京东比价 = type=http-response,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),requires-body=1,max-size=0,script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js,script-update-interval=0
 
 # K
 
@@ -73,9 +73,10 @@ GreasyFork油猴脚本转换器 = type=http-response,pattern=^https:\/\/(greasyf
 Sub-Store订阅管理 = type=http-request,pattern=^https?:\/\/sub\.store,requires-body=1,max-size=131072,timeout=120,script-path=https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/sub-store.min.js,script-update-interval=0
 
 # T
-# 淘宝(不生效或失效的需要卸载 tb 重装，注意不开脚本进 tb 会失效)
-淘宝历史价格1 = type=http-request,pattern=^http://.+/amdc/mobileDispatch,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js,script-update-interval=0
-淘宝历史价格2 = type=http-response,pattern=^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js,script-update-interval=0
+# 淘宝
+# 历史价格在“保障”中显示，需要点击“保障”才能看到.
+淘宝比价1 = type=http-request,pattern=^http://.+/amdc/mobileDispatch,requires-body=1,max-size=0,script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js,script-update-interval=0
+淘宝比价2 = type=http-response,pattern=^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail,requires-body=1,max-size=0,script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js,script-update-interval=0
 
 # U
 
