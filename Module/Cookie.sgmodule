@@ -86,6 +86,9 @@
 # 京东金融
 京东金融领豆获取Cookie = type=http-request,pattern=^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/uc\/newna\/m\/userstat,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/dompling/Script/master/jd/jd_jr_cookie.js,script-update-interval=0
 
+# 嘉实宠粉站
+嘉实宠粉站获取数据 = type=http-request,pattern=https://jiashijijin.01lb.com.cn/api/user/showUserInfo,script-path=https://gitee.com/tom210120/tom/raw/master/JSCFZ/jscfz.js,script-update-interval=0
+
 # K
 
 # L
@@ -186,7 +189,7 @@ WGC获取数据 = type=http-request,pattern=http://stc.enjoyha.com/api/miner/min
 
 
 [MITM]
-hostname = %APPEND% bububao.duoshoutuan.com, .*.top, club.yili.com, ifac*.iqiyi.com, wq.jd.com, m.jingxi.com, sleep.zouluzhuan.com, api.hemayoudao.cn, wq.jd.com, qcjesnfs.bar, *.tenpay.com, me-api.jd.com, api.m.jd.com, app.hubonews.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, ranlv.lvfacn.com, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, glados.rocks, activity-center-web.shuqireader.com, ocean.shuqireader.com, pepcoin.pepsico.com.cn, api.mozillacoin.com, www.shikeshijie.com, www.xizai.com, api.doge.yingshe.com, sunnytown.hyskgame.com, stc.enjoyha.com, as.xiaojukeji.com, common.diditaxi.com.cn, *.lw0591.com, daojia.jd.com, ms.jr.jd.com, game.xiaojukeji.com, app-api.yinlishenghuo.com, h5.youzan.com, 47.108.30.245:4001, www.tupinh.com, znapi.yili.com, ms.jr.jd.com  
+hostname = %APPEND% bububao.duoshoutuan.com, .*.top, club.yili.com, ifac*.iqiyi.com, wq.jd.com, m.jingxi.com, sleep.zouluzhuan.com, api.hemayoudao.cn, wq.jd.com, qcjesnfs.bar, *.tenpay.com, me-api.jd.com, api.m.jd.com, app.hubonews.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, ranlv.lvfacn.com, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, glados.rocks, activity-center-web.shuqireader.com, ocean.shuqireader.com, pepcoin.pepsico.com.cn, api.mozillacoin.com, www.shikeshijie.com, www.xizai.com, api.doge.yingshe.com, sunnytown.hyskgame.com, stc.enjoyha.com, as.xiaojukeji.com, common.diditaxi.com.cn, *.lw0591.com, daojia.jd.com, ms.jr.jd.com, game.xiaojukeji.com, app-api.yinlishenghuo.com, h5.youzan.com, 47.108.30.245:4001, www.tupinh.com, znapi.yili.com, ms.jr.jd.com, jiashijijin.01lb.com.cn  
 
 
 
