@@ -46,6 +46,9 @@ GreasyFork油猴脚本转换器 = type=http-response,pattern=^https:\/\/(greasyf
 # 京东
 京东比价 = type=http-response,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),requires-body=1,max-size=0,script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js,script-update-interval=0
 
+# 京粉转链
+京粉转链 = type=http-response,pattern=^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Fokit/Quantumult-X/main/scripts/jf_Convert.js,script-update-interval=0
+
 # K
 
 # L
