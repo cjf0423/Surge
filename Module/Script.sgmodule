@@ -16,9 +16,6 @@
 # 可选, 适用于搜索指定地区的番剧
 哔哩哔哩搜索指定地区的番剧 = type=http-request,pattern=^https:\/\/app\.bilibili\.com\/x\/v\d\/search(\/type)?\?.+?%20(%E6%B8%AF|%E5%8F%B0|%E4%B8%AD)&,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js,script-update-interval=0
 
-# 百度网盘
-百度网盘加速 = type=http-response,pattern=https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js,script-update-interval=0
-
 # BoxJs
 BoxJs TF = type=http-request,pattern=^https?://boxjs.net,requires-body=1,max-size=0,timeout=120,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js,script-update-interval=0
 
@@ -102,4 +99,4 @@ WPS = type=http-response,pattern=^https?:\/\/account\.wps\.cn\/api\/users,requir
 
 
 [MITM]
-hostname = %APPEND% ap?.bilibili.com, plogin.m.jd.com, home.m.jd.com, api.m.jd.com, trade-acs.m.taobao.com, sub.store, ios.prod.ftl.netflix.com, mp.weixin.qq.com, pan.baidu.com, weixin110.qq.com, account.wps.cn, greasyfork.org, openuserjs.org 
+hostname = %APPEND% ap?.bilibili.com, plogin.m.jd.com, home.m.jd.com, api.m.jd.com, trade-acs.m.taobao.com, sub.store, ios.prod.ftl.netflix.com, mp.weixin.qq.com, weixin110.qq.com, account.wps.cn, greasyfork.org, openuserjs.org 
