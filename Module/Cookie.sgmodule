@@ -6,7 +6,7 @@
 [Script]
 # A
 # 爱奇艺
-爱奇艺获取Cookie = type=http-request,pattern=^https?:\/\/iface(\d)?\.iqiyi\.com\/,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,script-update-interval=0
+爱奇艺获取Cookie = type=http-request,pattern=^https:\/\/passport\.iqiyi\.com\/apis\/user\/info\.action,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,script-update-interval=0
 
 # B
 # 步步宝
@@ -192,7 +192,7 @@ WGC获取数据 = type=http-request,pattern=http://stc.enjoyha.com/api/miner/min
 
 
 [MITM]
-hostname = %APPEND% bububao.duoshoutuan.com, .*.top, club.yili.com, ifac*.iqiyi.com, wq.jd.com, m.jingxi.com, sleep.zouluzhuan.com, api.hemayoudao.cn, wq.jd.com, qcjesnfs.bar, *.tenpay.com, me-api.jd.com, api.m.jd.com, app.hubonews.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, ranlv.lvfacn.com, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, glados.rocks, activity-center-web.shuqireader.com, ocean.shuqireader.com, pepcoin.pepsico.com.cn, api.mozillacoin.com, www.shikeshijie.com, www.xizai.com, api.doge.yingshe.com, sunnytown.hyskgame.com, stc.enjoyha.com, as.xiaojukeji.com, common.diditaxi.com.cn, *.lw0591.com, daojia.jd.com, ms.jr.jd.com, game.xiaojukeji.com, app-api.yinlishenghuo.com, h5.youzan.com, 47.108.30.245:4001, www.tupinh.com, znapi.yili.com, ms.jr.jd.com, jiashijijin.01lb.com.cn, api.st615.com 
+hostname = %APPEND% bububao.duoshoutuan.com, .*.top, club.yili.com, passport.iqiyi.com, wq.jd.com, m.jingxi.com, sleep.zouluzhuan.com, api.hemayoudao.cn, wq.jd.com, qcjesnfs.bar, *.tenpay.com, me-api.jd.com, api.m.jd.com, app.hubonews.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, ranlv.lvfacn.com, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, glados.rocks, activity-center-web.shuqireader.com, ocean.shuqireader.com, pepcoin.pepsico.com.cn, api.mozillacoin.com, www.shikeshijie.com, www.xizai.com, api.doge.yingshe.com, sunnytown.hyskgame.com, stc.enjoyha.com, as.xiaojukeji.com, common.diditaxi.com.cn, *.lw0591.com, daojia.jd.com, ms.jr.jd.com, game.xiaojukeji.com, app-api.yinlishenghuo.com, h5.youzan.com, 47.108.30.245:4001, www.tupinh.com, znapi.yili.com, ms.jr.jd.com, jiashijijin.01lb.com.cn, api.st615.com 
 
 
 
