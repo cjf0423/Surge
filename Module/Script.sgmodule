@@ -30,6 +30,11 @@ GreasyFork油猴脚本转换器 = type=http-response,pattern=^https:\/\/(greasyf
 # I
 
 # J
+# 如果京东入会开卡打开无网络，是因为比价主机名导致，可以关闭本条重写规则解决
+# 其他问题：暂时没有
+# 京东比价
+# 比价信息显示在商品下方
+京东比价 = type=http-response,pattern=^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zwf234/rules/master/js/jd_price.js,script-update-interval=0
 
 # K
 
@@ -58,6 +63,12 @@ GreasyFork油猴脚本转换器 = type=http-response,pattern=^https:\/\/(greasyf
 Sub-Store订阅管理 = type=http-request,pattern=^https?:\/\/sub\.store,requires-body=1,max-size=131072,timeout=120,script-path=https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/sub-store.min.js,script-update-interval=0
 
 # T
+# 淘宝比价
+# 历史价格在“保障”中显示，需要点击“保障”才能看到，和京东不一样
+# “保障”显示在商品下方
+# 如果还是不显示，那就把app卸载重新安装
+淘宝比价1 = type=http-request,pattern=^http:\/\/.+\/amdc\/mobileDispatch,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zwf234/rules/master/js/tb_price.js,script-update-interval=0
+淘宝比价2 = type=http-response,pattern=^https?:\/\/trade-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.detail\.getdetail,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zwf234/rules/master/js/tb_price.js,script-update-interval=0
 
 # U
 
@@ -77,5 +88,5 @@ Sub-Store订阅管理 = type=http-request,pattern=^https?:\/\/sub\.store,require
 
 
 [MITM]
-hostname = %APPEND% ap?.bilibili.com, sub.store, ios.prod.ftl.netflix.com, mp.weixin.qq.com, greasyfork.org 
+hostname = %APPEND% ap?.bilibili.com, sub.store, ios.prod.ftl.netflix.com, mp.weixin.qq.com, greasyfork.org, api.m.jd.com, trade-acs.m.taobao.com
 
