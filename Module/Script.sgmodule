@@ -10,6 +10,10 @@
 # 哔哩哔哩开启1080
 哔哩哔哩开启1080 = type=http-response,pattern=https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/cjf935257177/QuantumultX/master/script/Scheduled%20Tasks/BiliHD.js,script-update-interval=0
 
+# 哔哩哔哩解锁大会员。 
+# 使用方法：目前支持解锁番剧和影视, 使用前须登陆自己的账号！
+哔哩哔哩解锁大会员 = type=http-request,pattern="^https?:\/\/ap(i|p)\.bilibili\.com\/bilibili\.\w{3,4}\..+\/(View|PlayView|PlayConf|PlayerOnline|MainList|ViewProgress)$",requires-body=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/Script/BiLiBiLiBVIPCrack.js,script-update-interval=0
+
 # BoxJs
 BoxJs TF = type=http-request,pattern=^https?://boxjs.net,requires-body=1,max-size=0,timeout=120,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js,script-update-interval=0
 
@@ -88,5 +92,6 @@ Sub-Store订阅管理 = type=http-request,pattern=^https?:\/\/sub\.store,require
 
 
 [MITM]
-hostname = %APPEND% ap?.bilibili.com, sub.store, ios.prod.ftl.netflix.com, mp.weixin.qq.com, greasyfork.org, api.m.jd.com, trade-acs.m.taobao.com
+hostname = %APPEND% ap?.bilibili.com, sub.store, ios.prod.ftl.netflix.com, mp.weixin.qq.com, greasyfork.org, api.m.jd.com, trade-acs.m.taobao.com, *.bili*.*, 124.239.240.*, 101.89.57.66, 218.94.210.66, 240e:b1:9801:206:11:0:0:* 
+
 
