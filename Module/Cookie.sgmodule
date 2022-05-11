@@ -44,6 +44,8 @@
 滴滴果园获取token = type=http-request,pattern=^https:\/\/game\.xiaojukeji\.com\/api\/game\/plant\/watering,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/passerby-b/didi_fruit/main/dd_getToken.js,script-update-interval=0
 
 # E
+# 饿了么(ZIYE)
+饿了么(ZIYE) = type=http-request,pattern=https://h5.ele.me/restapi/biz.svip_core/v2/foodie/homepage?,requires-body=0,script-path=https://raw.githubusercontent.com/cjf0423/ZIYE00/ZIYE/Task/elm.js,script-update-interval=0
 
 # F
 # 返利网
@@ -192,7 +194,7 @@ WGC获取数据 = type=http-request,pattern=http://stc.enjoyha.com/api/miner/min
 
 
 [MITM]
-hostname = %APPEND% bububao.duoshoutuan.com, .*.top, club.yili.com, passport.iqiyi.com, wq.jd.com, m.jingxi.com, sleep.zouluzhuan.com, api.hemayoudao.cn, wq.jd.com, qcjesnfs.bar, *.tenpay.com, me-api.jd.com, api.m.jd.com, app.hubonews.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, ranlv.lvfacn.com, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, glados.rocks, activity-center-web.shuqireader.com, ocean.shuqireader.com, pepcoin.pepsico.com.cn, api.mozillacoin.com, www.shikeshijie.com, www.xizai.com, api.doge.yingshe.com, sunnytown.hyskgame.com, stc.enjoyha.com, as.xiaojukeji.com, common.diditaxi.com.cn, *.lw0591.com, daojia.jd.com, ms.jr.jd.com, game.xiaojukeji.com, app-api.yinlishenghuo.com, h5.youzan.com, 47.108.30.245:4001, www.tupinh.com, znapi.yili.com, ms.jr.jd.com, jiashijijin.01lb.com.cn, api.st615.com 
+hostname = %APPEND% bububao.duoshoutuan.com, .*.top, club.yili.com, passport.iqiyi.com, wq.jd.com, m.jingxi.com, sleep.zouluzhuan.com, api.hemayoudao.cn, wq.jd.com, qcjesnfs.bar, *.tenpay.com, me-api.jd.com, api.m.jd.com, app.hubonews.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, ranlv.lvfacn.com, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, glados.rocks, activity-center-web.shuqireader.com, ocean.shuqireader.com, pepcoin.pepsico.com.cn, api.mozillacoin.com, www.shikeshijie.com, www.xizai.com, api.doge.yingshe.com, sunnytown.hyskgame.com, stc.enjoyha.com, as.xiaojukeji.com, common.diditaxi.com.cn, *.lw0591.com, daojia.jd.com, ms.jr.jd.com, game.xiaojukeji.com, app-api.yinlishenghuo.com, h5.youzan.com, 47.108.30.245:4001, www.tupinh.com, znapi.yili.com, ms.jr.jd.com, jiashijijin.01lb.com.cn, api.st615.com, h5.ele.me 
 
 
 
