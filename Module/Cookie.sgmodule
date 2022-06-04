@@ -105,6 +105,9 @@
 腾讯自选股4 = type=http-request,pattern=https://wzq.tenpay.com/activity/page/welwareCenter/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_cookie.js,script-update-interval=0
 腾讯自选股5 = type=http-request,pattern=https://zqact.tenpay.com/cgi-bin/shop.fcgi?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_cookie.js,script-update-interval=0
 
+# 腾讯视频-福利中心
+腾讯视频-福利中心数据 = type=http-request,pattern=https://pbaccess.video.qq.com/activity/welfare_center/queryUserActivity,requires-body=0,script-path=https://raw.githubusercontent.com/leafTheFish/DeathNote/main/txspfl.js,script-update-interval=0
+
 # U
 
 # V
@@ -143,7 +146,7 @@
 
 
 [MITM]
-hostname = %APPEND% club.yili.com, passport.iqiyi.com, wq.jd.com, m.jingxi.com, wq.jd.com, qcjesnfs.bar, *.tenpay.com, api.m.jd.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, ranlv.lvfacn.com, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, glados.rocks, activity-center-web.shuqireader.com, ocean.shuqireader.com, api.doge.yingshe.com, as.xiaojukeji.com, common.diditaxi.com.cn, *.lw0591.com, daojia.jd.com, ms.jr.jd.com, game.xiaojukeji.com, znapi.yili.com, ms.jr.jd.com, h5.ele.me 
+hostname = %APPEND% club.yili.com, passport.iqiyi.com, wq.jd.com, m.jingxi.com, wq.jd.com, qcjesnfs.bar, *.tenpay.com, api.m.jd.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, ranlv.lvfacn.com, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, glados.rocks, activity-center-web.shuqireader.com, ocean.shuqireader.com, api.doge.yingshe.com, as.xiaojukeji.com, common.diditaxi.com.cn, *.lw0591.com, daojia.jd.com, ms.jr.jd.com, game.xiaojukeji.com, znapi.yili.com, ms.jr.jd.com, h5.ele.me, pbaccess.video.qq.com 
 
 
  
