@@ -47,6 +47,9 @@
 # GLaDOS签到
 获取GLaDOS_Cookie = type=http-request,pattern=https:\/\/glados\.rocks\/api\/user\/checkin,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/glados.js,script-update-interval=0
 
+# 赶集直招
+赶集直招数据 = type=http-request,pattern=https://gjgrowthoper.58.com/user/userinfo,requires-body=0,script-path=https://raw.githubusercontent.com/leafTheFish/DeathNote/main/gjzz.js,script-update-interval=0
+
 # 狗狗大亨
 狗狗大亨获取数据 = type=http-request,pattern=http://api.doge.yingshe.com/api/doge,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/cjf0423/QuantumultX/master/script/Scheduled%20Tasks/ggdh.js,script-update-interval=0
 
@@ -73,6 +76,9 @@
 京东金融领豆获取Cookie = type=http-request,pattern=^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/uc\/newna\/m\/userstat,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/dompling/Script/master/jd/jd_jr_cookie.js,script-update-interval=0
 
 # K
+# 快手 普通版
+快手获取数据1 = type=http-request,pattern=appsupport/yoda/biz/info,requires-body=0,script-path=https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ks.js,script-update-interval=0
+快手获取数据2 = type=http-request,pattern=ksapp/client/package/renew,requires-body=0,script-path=https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ks.js,script-update-interval=0
 
 # L
 
@@ -131,6 +137,9 @@
 伊利乳品Cookie = type=http-request,pattern=https:\/\/club\.yili\.com\/MALLIFChe\/MCSWSIAPI\.asmx\/Call,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.cookie.js,script-update-interval=0
 
 # Z
+# 追书神器
+追书神器数据 = type=http-request,pattern=https://goldcoinnew.zhuishushenqi.com/account/profile,requires-body=0,script-path=https://raw.githubusercontent.com/leafTheFish/DeathNote/main/zssq.js,script-update-interval=0
+
 # 臻浓星球
 臻浓星球获取ck = type=http-request,pattern=https://znapi.yili.com/api/user/getUser,script-path=https://raw.githubusercontent.com/cjf935257177/ZIYE00/ZIYE/Task/znxq.js,script-update-interval=0
 
@@ -146,7 +155,7 @@
 
 
 [MITM]
-hostname = %APPEND% club.yili.com, passport.iqiyi.com, wq.jd.com, m.jingxi.com, wq.jd.com, qcjesnfs.bar, *.tenpay.com, api.m.jd.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, ranlv.lvfacn.com, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, glados.rocks, activity-center-web.shuqireader.com, ocean.shuqireader.com, api.doge.yingshe.com, as.xiaojukeji.com, common.diditaxi.com.cn, *.lw0591.com, daojia.jd.com, ms.jr.jd.com, game.xiaojukeji.com, znapi.yili.com, ms.jr.jd.com, h5.ele.me, pbaccess.video.qq.com 
+hostname = %APPEND% club.yili.com, passport.iqiyi.com, wq.jd.com, m.jingxi.com, wq.jd.com, qcjesnfs.bar, *.tenpay.com, api.m.jd.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, ranlv.lvfacn.com, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, glados.rocks, activity-center-web.shuqireader.com, ocean.shuqireader.com, api.doge.yingshe.com, as.xiaojukeji.com, common.diditaxi.com.cn, *.lw0591.com, daojia.jd.com, ms.jr.jd.com, game.xiaojukeji.com, znapi.yili.com, ms.jr.jd.com, h5.ele.me, pbaccess.video.qq.com, goldcoinnew.zhuishushenqi.com, gjgrowthoper.58.com, api.kuaisho*.com, open.kuaisho*.com 
 
 
  
