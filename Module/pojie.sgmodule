@@ -1,0 +1,96 @@
+#!name=破解VIP
+#!desc=破解一些软件的vip 原始圈x链接https://gjds.vip/QX/pojie/gjwj.conf
+
+
+
+[URL Rewrite]
+# 多多视频 永久VIP
+^https?:\/\/api\.rr\.tv\/.*?Version - reject
+
+
+[Script]
+# 汉堡儿童睡前故事（解锁永久VIP）
+汉堡儿童睡前故事（解锁永久VIP） = type=http-response,pattern=^https:\/\/www\.babybooks\.top\/v0\/profile,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/sqgs.js,script-update-interval=0
+# 二蛋影视（解锁永久VIP）
+二蛋影视（解锁永久VIP） = type=http-response,pattern=^http:\/\/vip\.0818km\.cn\/login\/login\/veifys\.html.+,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/ed.js,script-update-interval=0
+# bigshot（解锁永久VIP）
+bigshot（解锁永久VIP） = type=http-response,pattern=^https:\/\/vni\.kwaiying\.com\/api\/v1\/user\/profile,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/bigshot.js,script-update-interval=0
+# 贝瓦儿歌（解锁永久VIP）
+贝瓦儿歌（解锁永久VIP） = type=http-response,pattern=^http:\/\/passport\.beva\.com\/passport\/v1\/sdk\/getuserinfo,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/bweg.js,script-update-interval=0
+# 儿歌点点（解锁永久VIP）
+儿歌点点（解锁永久VIP） = type=http-response,pattern=^http:\/\/gateway\.ergedd\.com\/dduser\/user\/center\/set,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/egdd.js,script-update-interval=0
+# 瑶池lsp（解锁永久VIP）
+瑶池lsp1 = type=http-response,pattern=^http:\/\/api\.ggmza.cn\/api\/user\/info,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/yaochi.js,script-update-interval=0
+瑶池lsp2 = type=http-response,pattern=^http:\/\/api\.ggmza\.cn\/api\/user\/autoLogin,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/yaochi1.js,script-update-interval=0
+瑶池lsp3 = type=http-response,pattern=^http:\/\/api\.ggmza\.cn\/api\/common\/enterNotice,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/yaochi2.js,script-update-interval=0
+# 多多视频 永久VIP
+多多视频1 = type=http-response,pattern=https://api.rr.tv/v3plus/index/channel\?pageNum=1&position=CHANNEL_INDEX,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/ddsp.js,script-update-interval=0
+多多视频2 = type=http-response,pattern=^https?:\/\/api\.rr\.tv\/app\/config\/h5NativeBar,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/ddsp.js,script-update-interval=0
+多多视频3 = type=http-response,pattern=^https?:\/\/api\.rr\.tv\/v3plus\/index\/channel\?pageNum=1&position=CHANNEL_MY,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/ddsp.js,script-update-interval=0
+多多视频4 = type=http-response,pattern=^https:\/\/api\.rr\.tv\/user\/privilege\/list,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/ddsp.js,script-update-interval=0
+多多视频5 = type=http-response,pattern=^https:\/\/api\.rr\.tv\/ad\/getAll,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/ddsp.js,script-update-interval=0
+多多视频6 = type=http-response,pattern=^https:\/\/api\.rr\.tv\/drama\/app\/get_combined_drama_detail,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/ddsp.js,script-update-interval=0
+多多视频7 = type=http-request,pattern=https://api.rr.tv/watch/v4,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/ddsp.js,script-update-interval=0
+多多视频8 = type=http-response,pattern=https://api.rr.tv/user/profile,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/ddsp.js,script-update-interval=0
+# 酷我音乐（可下载 永久VIP 解锁听书看书VIP）
+酷我音乐1 = type=http-response,pattern=^https?:\/\/audiobookpay\.kuwo\.cn/a\.p,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/kuwoks.js,script-update-interval=0
+酷我音乐2 = type=http-response,pattern=^https?:\/\/tingshu\.kuwo\.cn/v2\/api\/user\/,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/kuwotingshu.js,script-update-interval=0
+酷我音乐3 = type=http-response,pattern=^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver=\d,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/kuwoxz.js,script-update-interval=0
+酷我音乐4 = type=http-response,pattern=^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice),requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/kuwohy.js,script-update-interval=0
+# 视频剪辑大师（解锁永久VIP）
+视频剪辑大师（解锁永久VIP） = type=http-response,pattern=^https:\/\/ajj\.fuguizhukj\.cn\/api\/UserProfile\/BasicUserInfo,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/spjj.js,script-update-interval=0
+# Picsew（解锁付费订阅）
+Picsew（解锁付费订阅） = type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/Picsew.js,script-update-interval=0
+# 彩云（解锁VIP）
+彩云（解锁VIP） = type=http-response,pattern=^https:\/\/biz\.caiyunapp\.com\/v2\/user.+,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/cytq.js,script-update-interval=0
+# 轻颜相机 蒸汽波相机 （解锁VIP）公用
+轻颜相机 蒸汽波相机 （解锁VIP）公用 = type=http-response,pattern=https://(commerce-.*api|pay).(faceu|wecut).(com|mobi)/(commerce|apple)/(iosAppVerifyReceipt.php|v1/subscription/user_info),requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/qyxj.js,script-update-interval=0
+# 斑马海报（永久VIP）
+斑马海报（永久VIP） = type=http-response,pattern=^https:\/\/zebra\.maka.im\/api\/user\/info,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/bmhb.js,script-update-interval=0
+# 卡通相机（VIP）
+卡通相机（VIP） = type=http-response,pattern=^http:\/\/vstou\.faxingwu\.com\/huihua\/user\/getUser,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/ktxj.js,script-update-interval=0
+# wps
+wps = type=http-response,pattern=^https?:\/\/account\.wps\.cn\/api\/users,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/wps.js,script-update-interval=0
+# pillow
+pillow = type=http-response,pattern=^https:\/\/api\.revenuecat\.com\/v1\/subscribers.+,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/pillow.js,script-update-interval=0
+# 悟饭
+悟饭 = type=http-response,pattern=^http:\/\/iosv2\.cjapi\.wufan88\.com\/user\/.+,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/wf.js,script-update-interval=0
+# 白噪音
+白噪音 = type=http-response,pattern=^http:\/\/matrix\.fingerplay\.cn\/user\/fetchUserInfo,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/bzy.js,script-update-interval=0
+# 鲸鱼视频（老司机）
+鲸鱼视频1 = type=http-response,argument=LOGIN_BEFOR->1,pattern=^https:\/\/api\.8897815\.com\/long_video\/advertising,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/replace-body.js,script-update-interval=0
+鲸鱼视频2 = type=http-response,pattern=^https:\/\/api\.8897815\.com\/long_video\/user\/info,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/jysp.js,script-update-interval=0
+# 大神水印
+大神水印 = type=http-response,pattern=^https:\/\/dashen-api\.shuiyinyu\.com\/m\/user\/get_user_info,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/dssy.js,script-update-interval=0
+# VUE 解锁会员pro
+VUE 解锁会员pro = type=http-response,pattern=^https:\/\/api\.vuevideo\.net\/api\/v1\/(users\/.+\/profile|subtitle\/prepare),requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/vue.js,script-update-interval=0
+# 傲软抠图 vip
+傲软抠图 vip = type=http-response,pattern=^https:\/\/gw\.aoscdn\.com\/base\/vip\/client\/authorizations,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/aoruankoutu.js,script-update-interval=0
+# wink vip
+wink vip = type=http-response,pattern=^https:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info\.json.+,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/wink.js,script-update-interval=0
+# 幕布 vip
+幕布 vip = type=http-response,pattern=^https:\/\/api2.mubu.com\/v3\/api\/user/*,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/mubu.js,script-update-interval=0
+# 千千配音VIP
+千千配音VIP = type=http-response,pattern=^https:\/\/qianqianapi\.chanwind\.com\/v1\/user/*,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/qqpy.js,script-update-interval=0
+# 小熊录屏
+小熊录屏 = type=http-response,pattern=http://bbdd2101-default-recorders-4916-415735771.us-west-2.elb.amazonaws.com/pay/checkAppleSubscribeReceipt,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/xxlp.js,script-update-interval=0
+# 小学生语文
+小学生语文 = type=http-response,pattern=https://www.51haoxue.cn\/indexrun.php,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/xxsyw.js,script-update-interval=0
+# 马赛克
+马赛克 = type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/msk.js,script-update-interval=0
+# 扫描全能王 高级账户
+扫描全能王 高级账户 = type=http-response,pattern=^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\?,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/smw.js,script-update-interval=0
+# 凡音钢琴
+凡音钢琴 = type=http-response,pattern=^http[s]?:\/\/gzfanyin.com\/api\/ums\/getMember,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/fygq.js,script-update-interval=0
+# 网速管家
+网速管家 = type=http-response,pattern=^https:\/\/api-v3\.speedtest\.cn\/user\/info,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/wsgj.js,script-update-interval=0
+
+
+
+[MITM]
+hostname = %APPEND% www.babybooks.top,vip.0818km.cn,vni.kwaiying.com,passport.beva.com,gateway.ergedd.com,api.ggmza.cn,api.rr.tv,musicpay.kuwo.cn, vip1.kuwo.cn, audiobookpay.kuwo.cn, tingshu.kuwo.cn, buy.itunes.apple.com, biz.caiyunapp.com, commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi, pay.wecut.com, zebra.maka.im, vstou.faxingwu.com, account.wps.cn, api.revenuecat.com, iosv2.cjapi.wufan88.com, matrix.fingerplay.cn, api.8897815.com, dashen-api.shuiyinyu.com, api.vuevideo.net, gw.aoscdn.com, api-sub.meitu.com, api2.mubu.com, qianqianapi.chanwind.com, *.*.elb.amazonaws.com, www.51haoxue.cn, buy.itunes.apple.com, ap*.intsig.net, gzfanyin.com, api-v3.speedtest.cn
+
+
+
+
+
