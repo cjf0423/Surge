@@ -2,6 +2,9 @@
 #!desc=cjf0423 Script
 
 
+[General]
+force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net
+
 
 [Script]
 # A
@@ -11,7 +14,7 @@
 哔哩哔哩开启1080 = type=http-response,pattern=https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/cjf935257177/QuantumultX/master/script/Scheduled%20Tasks/BiliHD.js,script-update-interval=0
 
 # BoxJs
-BoxJs TF = type=http-request,pattern=^https?://boxjs.net,requires-body=1,max-size=0,timeout=120,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js,script-update-interval=0
+BoxJs = type=http-request,pattern= https?:\/\/boxjs\.(com|net),requires-body=1,max-size=0,timeout=120,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js,script-update-interval=0
 
 # 百度网盘
 百度网盘vip = type=http-response,pattern=https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/bdwp.js,script-update-interval=0
