@@ -119,6 +119,10 @@
 # V
 
 # W
+
+# 吾爱破解
+吾爱获取Cookie = type=http-request,pattern=https:\/\/www\.52pojie\.cn\/home\.php\?,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js,requires-body=0,script-update-interval=0
+
 # 文旅看点(CenBoMin)
 文旅看点获取body1 = type=http-request,pattern=http://app.zhongchuanjukan.com/jkd/mobiledomain/getDomain.action,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/WLAPP/wlappcookie.js,script-update-interval=0
 文旅看点获取body2 = type=http-request,pattern=http://app.zhongchuanjukan.com/jkd/login/userlogin.action,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/WLAPP/wlappcookie.js,script-update-interval=0
@@ -155,7 +159,7 @@
 
 
 [MITM]
-hostname = %APPEND% club.yili.com, passport.iqiyi.com, wq.jd.com, m.jingxi.com, wq.jd.com, qcjesnfs.bar, *.tenpay.com, api.m.jd.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, ranlv.lvfacn.com, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, glados.rocks, activity-center-web.shuqireader.com, ocean.shuqireader.com, api.doge.yingshe.com, as.xiaojukeji.com, common.diditaxi.com.cn, *.lw0591.com, daojia.jd.com, ms.jr.jd.com, game.xiaojukeji.com, znapi.yili.com, ms.jr.jd.com, h5.ele.me, pbaccess.video.qq.com, goldcoinnew.zhuishushenqi.com, gjgrowthoper.58.com, api.kuaisho*.com, open.kuaisho*.com 
+hostname = %APPEND% club.yili.com, passport.iqiyi.com, wq.jd.com, m.jingxi.com, wq.jd.com, qcjesnfs.bar, *.tenpay.com, api.m.jd.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, ranlv.lvfacn.com, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, glados.rocks, activity-center-web.shuqireader.com, ocean.shuqireader.com, api.doge.yingshe.com, as.xiaojukeji.com, common.diditaxi.com.cn, *.lw0591.com, daojia.jd.com, ms.jr.jd.com, game.xiaojukeji.com, znapi.yili.com, ms.jr.jd.com, h5.ele.me, pbaccess.video.qq.com, goldcoinnew.zhuishushenqi.com, gjgrowthoper.58.com, api.kuaisho*.com, open.kuaisho*.com, www.52pojie.cn 
 
 
  
