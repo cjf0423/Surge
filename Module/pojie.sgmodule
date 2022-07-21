@@ -45,6 +45,8 @@ Picsew（解锁付费订阅） = type=http-response,pattern=^https:\/\/buy\.itun
 彩云（解锁VIP） = type=http-response,pattern=^https:\/\/biz\.caiyunapp\.com\/v2\/user.+,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/cytq.js,script-update-interval=0
 # 轻颜相机 蒸汽波相机 （解锁VIP）公用
 轻颜相机 蒸汽波相机 （解锁VIP）公用 = type=http-response,pattern=https://(commerce-.*api|pay).(faceu|wecut).(com|mobi)/(commerce|apple)/(iosAppVerifyReceipt.php|v1/subscription/user_info),requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/qyxj.js,script-update-interval=0
+# 一甜相机
+一甜相机解锁会员 = type=http-response,pattern=^https?:\/\/m2u-api\.getkwai\.com\/api-server\/api\/v2\/vip\/vipUserInfo,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/1TianCamVipCrack.js,script-update-interval=0
 # 斑马海报（永久VIP）
 斑马海报（永久VIP） = type=http-response,pattern=^https:\/\/zebra\.maka.im\/api\/user\/info,requires-body=1,max-size=0,script-path=https://gjds.vip/QX/pojie/bmhb.js,script-update-interval=0
 # 卡通相机（VIP）
@@ -88,7 +90,7 @@ wink vip = type=http-response,pattern=^https:\/\/api-sub\.meitu\.com\/v2\/user\/
 
 
 [MITM]
-hostname = %APPEND% www.babybooks.top,vip.0818km.cn,vni.kwaiying.com,passport.beva.com,gateway.ergedd.com,api.ggmza.cn,api.rr.tv,musicpay.kuwo.cn, vip1.kuwo.cn, audiobookpay.kuwo.cn, tingshu.kuwo.cn, buy.itunes.apple.com, biz.caiyunapp.com, commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi, pay.wecut.com, zebra.maka.im, vstou.faxingwu.com, account.wps.cn, api.revenuecat.com, iosv2.cjapi.wufan88.com, matrix.fingerplay.cn, api.8897815.com, dashen-api.shuiyinyu.com, api.vuevideo.net, gw.aoscdn.com, api-sub.meitu.com, api2.mubu.com, qianqianapi.chanwind.com, *.*.elb.amazonaws.com, www.51haoxue.cn, buy.itunes.apple.com, ap*.intsig.net, gzfanyin.com, api-v3.speedtest.cn
+hostname = %APPEND% www.babybooks.top,vip.0818km.cn,vni.kwaiying.com,passport.beva.com,gateway.ergedd.com,api.ggmza.cn,api.rr.tv,musicpay.kuwo.cn, vip1.kuwo.cn, audiobookpay.kuwo.cn, tingshu.kuwo.cn, buy.itunes.apple.com, biz.caiyunapp.com, commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi, pay.wecut.com, zebra.maka.im, vstou.faxingwu.com, account.wps.cn, api.revenuecat.com, iosv2.cjapi.wufan88.com, matrix.fingerplay.cn, api.8897815.com, dashen-api.shuiyinyu.com, api.vuevideo.net, gw.aoscdn.com, api-sub.meitu.com, api2.mubu.com, qianqianapi.chanwind.com, *.*.elb.amazonaws.com, www.51haoxue.cn, buy.itunes.apple.com, ap*.intsig.net, gzfanyin.com, api-v3.speedtest.cn, m2u-api.getkwai.com 
 
 
 
