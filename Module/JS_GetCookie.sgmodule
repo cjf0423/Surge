@@ -85,6 +85,7 @@
 # N
 
 # M
+美团(Leaf)获取数据 = type=http-request,pattern=http://gaea.meituan.com/mop/entry/forbidden/resource,requires-body=0,script-path=https://raw.githubusercontent.com/cjf0423/ZIYE00/leafTheFish/meituan.js,script-update-interval=0
 
 # O
 
@@ -159,7 +160,7 @@
 
 
 [MITM]
-hostname = %APPEND% club.yili.com, passport.iqiyi.com, wq.jd.com, m.jingxi.com, wq.jd.com, qcjesnfs.bar, *.tenpay.com, api.m.jd.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, ranlv.lvfacn.com, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, glados.rocks, activity-center-web.shuqireader.com, ocean.shuqireader.com, api.doge.yingshe.com, as.xiaojukeji.com, common.diditaxi.com.cn, *.lw0591.com, daojia.jd.com, ms.jr.jd.com, game.xiaojukeji.com, znapi.yili.com, ms.jr.jd.com, h5.ele.me, pbaccess.video.qq.com, goldcoinnew.zhuishushenqi.com, gjgrowthoper.58.com, api.kuaisho*.com, open.kuaisho*.com, www.52pojie.cn 
+hostname = %APPEND% club.yili.com, passport.iqiyi.com, wq.jd.com, m.jingxi.com, wq.jd.com, qcjesnfs.bar, *.tenpay.com, api.m.jd.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, ranlv.lvfacn.com, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, glados.rocks, activity-center-web.shuqireader.com, ocean.shuqireader.com, api.doge.yingshe.com, as.xiaojukeji.com, common.diditaxi.com.cn, *.lw0591.com, daojia.jd.com, ms.jr.jd.com, game.xiaojukeji.com, znapi.yili.com, ms.jr.jd.com, h5.ele.me, pbaccess.video.qq.com, goldcoinnew.zhuishushenqi.com, gjgrowthoper.58.com, api.kuaisho*.com, open.kuaisho*.com, www.52pojie.cn, *.meituan.com 
 
 
  
