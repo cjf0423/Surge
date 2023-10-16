@@ -60,7 +60,7 @@
 
 # I
 # i茅台预约
-i茅台预约cookie = type=http-response,pattern=https://app.moutai519.com.cn/xhr/front/user/info,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/imaotai/imaotai.js,script-update-interval=0
+i茅台获取Token = type=http-request,pattern=^https:\/\/app\.moutai519\.com\.cn\/xhr\/front\/mall\/message\/unRead\/query,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/i-maotai.js,script-update-interval=0
 
 # J
 # 获取京喜tokens
