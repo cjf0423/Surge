@@ -97,6 +97,9 @@ i茅台获取Token = type=http-request,pattern=^https:\/\/app\.moutai519\.com\.c
 # P
 
 # Q
+# QQ音乐
+QQ音乐ck1 = type=http-request,pattern=https://c6.y.qq.com/shop/fcgi-bin/fcg_get_order?,requires-body=0,script-path=https://raw.githubusercontent.com/WowYiJiu/Personal/main/Script/qqMusic.js,script-update-interval=0
+QQ音乐ck2 = type=http-request,pattern=https://u6.y.qq.com/cgi-bin/musics.fcg?,requires-body=0,script-path=https://raw.githubusercontent.com/WowYiJiu/Personal/main/Script/qqMusic.js,script-update-interval=0
 
 # R
 # 燃旅视频
@@ -165,7 +168,7 @@ i茅台获取Token = type=http-request,pattern=^https:\/\/app\.moutai519\.com\.c
 
 
 [MITM]
-hostname = %APPEND% club.yili.com, passport.iqiyi.com, wq.jd.com, m.jingxi.com, wq.jd.com, qcjesnfs.bar, *.tenpay.com, api.m.jd.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, ranlv.lvfacn.com, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, glados.rocks, activity-center-web.shuqireader.com, ocean.shuqireader.com, api.doge.yingshe.com, as.xiaojukeji.com, common.diditaxi.com.cn, *.lw0591.com, daojia.jd.com, ms.jr.jd.com, game.xiaojukeji.com, znapi.yili.com, ms.jr.jd.com, h5.ele.me, pbaccess.video.qq.com, goldcoinnew.zhuishushenqi.com, gjgrowthoper.58.com, api.kuaisho*.com, open.kuaisho*.com, www.52pojie.cn, *.meituan.com, auth.alipan.com, app.moutai519.com.cn 
+hostname = %APPEND% club.yili.com, passport.iqiyi.com, wq.jd.com, m.jingxi.com, wq.jd.com, qcjesnfs.bar, *.tenpay.com, api.m.jd.com, kd.youth.cn, ios.baertt.com, veishop.iboxpay.com, *.fanli.com, ranlv.lvfacn.com, dkd-api.dysdk.com, app.kxp.com, task.youth.cn, app.zhongchuanjukan.com, glados.rocks, activity-center-web.shuqireader.com, ocean.shuqireader.com, api.doge.yingshe.com, as.xiaojukeji.com, common.diditaxi.com.cn, *.lw0591.com, daojia.jd.com, ms.jr.jd.com, game.xiaojukeji.com, znapi.yili.com, ms.jr.jd.com, h5.ele.me, pbaccess.video.qq.com, goldcoinnew.zhuishushenqi.com, gjgrowthoper.58.com, api.kuaisho*.com, open.kuaisho*.com, www.52pojie.cn, *.meituan.com, auth.alipan.com, app.moutai519.com.cn, *.y.qq.com 
 
 
  
