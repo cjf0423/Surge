@@ -1,5 +1,5 @@
 #!name=gat_grok-cookie
-#!desc=通过 Surge 获取Grok的Token
+#!desc=通过 Surge 获取Grok的Token 数据值grok2api.tokens
 #!author=cjf0423
 
 
