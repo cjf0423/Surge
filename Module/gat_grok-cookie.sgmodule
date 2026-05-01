@@ -1,0 +1,12 @@
+#!name=gat_grok-cookie
+#!desc=通过 Surge 获取Grok的Token
+#!author=cjf0423
+
+
+[Script]
+Grok Cookie Capture = type=http-request,pattern=^https?:\/\/(?:www\.)?grok\.com\/.*,requires-body=false,max-size=0,script-path=surge-grok-cookie.js
+Grok Cookie Viewer = type=http-request,pattern=^http:\/\/grok-cookie\.local\/.*,requires-body=false,max-size=0,script-path=surge-grok-cookie.js
+
+
+[MITM]
+hostname = %APPEND% grok.com, www.grok.com
