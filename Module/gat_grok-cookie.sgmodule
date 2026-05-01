@@ -4,8 +4,8 @@
 
 
 [Script]
-Grok Cookie Capture = type=http-request,pattern=^https?:\/\/(?:www\.)?grok\.com\/.*,requires-body=false,max-size=0,script-path=grok-cookie.js
-Grok Cookie Viewer = type=http-request,pattern=^http:\/\/grok-cookie\.local\/.*,requires-body=false,max-size=0,script-path=grok-cookie.js
+Grok Cookie Capture = type=http-request,pattern=^https?:\/\/(?:www\.)?grok\.com\/.*,requires-body=false,max-size=0,script-path=https://raw.githubusercontent.com/cjf0423/Surge/refs/heads/master/Script/grok-cookie.js
+Grok Cookie Viewer = type=http-request,pattern=^http:\/\/grok-cookie\.local\/.*,requires-body=false,max-size=0,script-path=https://raw.githubusercontent.com/cjf0423/Surge/refs/heads/master/Script/grok-cookie.js
 
 
 [MITM]
